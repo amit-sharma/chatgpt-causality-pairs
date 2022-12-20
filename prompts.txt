@@ -68,7 +68,7 @@ does changing the input voltage of an electric toy locomotive cause a change in 
 does changing the contrast of tilted Gabor patches cause a change in accuracy of detection of tilt by participants? Please answer in a single word: Yes or No.
 does changing the accuracy of detection of tilt of Gabor patches by participants cause a change in contrast of the Gabor patches? Please answer in a single word: Yes or No.
 
-does changing the time for 1/6 rotation of a Stirling engine cause a change in the temperature of its heat bath? Please answer in a single word: Yes or No. (answers Yes)
+pair0108,does changing the time for 1/6 rotation of a Stirling engine cause a change in the temperature of its heat bath? Please answer in a single word: Yes or No.
 
-does changing the temperature of the heat bath of a Stirling engine cause a change in time it takes for 1/6 rotation? Please answer in a single word: Yes or No.
+pair0108,does changing the temperature of the heat bath of a Stirling engine cause a change in time it takes for 1/6 rotation? Please answer in a single word: Yes or No.
 

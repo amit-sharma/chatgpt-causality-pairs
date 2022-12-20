@@ -1,4 +1,4 @@
-CorrectACauseB,CorrectBCauseA,pairid, var 1,var 2,dataset,ground truth
+CorrectACauseB,CorrectBCauseA,pairid, varA,varB,dataset,groundtruth
 
 1,1,pair0001,Altitude,Temperature,DWD,->
 1,1,pair0002,Altitude,Precipitation,DWD,->
