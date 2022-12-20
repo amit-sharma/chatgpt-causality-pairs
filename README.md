@@ -5,7 +5,7 @@
 Pairwise causal discovery is a fundamental open problem. Given two variables, the task is to determine which variable causes the other. As one of the key benchmarks for this task, [Mooij et al. (2016)](http://jmlr.org/papers/v17/14-518.html) released the [Tuebingen cause-effect pairs dataset](https://webdav.tuebingen.mpg.de/cause-effect/) with 108 pairs of real world variables. 
 
 As a fun exploration, we presented these pairs of variables as prompts to [ChatGPT](https://chat.openai.com/) to study the capabilities of large language models in inferring causality. **ChatGPT performs significantly better than current SoTA algorithms on the Tuebingen benchmark.**
-In the 74 pairs we have tried so far, ChatGPT obtains an accuracy of 92.5%. In comparison, the best known accuracy using conventional discovery methods is 70-80%. 
+In the 74 pairs we have tried so far, ChatGPT obtains an accuracy of 92.5%. In comparison, the best known accuracy using conventional discovery methods is 70-80% [[Mooij et al. (2016)](https://jmlr.org/papers/v17/14-518.html), [Tagasovska et al. (2020)](https://proceedings.mlr.press/v119/tagasovska20a.html), [Compton et al. (2020)](https://proceedings.neurips.cc/paper/2020/hash/a979ca2444b34449a2c80b012749e9cd-Abstract.html), [Salem et al. (2022)](https://arxiv.org/abs/2211.12016)]. 
 
 Crucially, ChatGPT does not need access to the data for each variable. It can infer causality simply from the variable names. We use the following prompt for each variable name:
 
