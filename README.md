@@ -7,7 +7,7 @@ Pairwise causal discovery is a fundamental open problem. Given two variables, th
 As a fun exploration, we present these pairs of variables as prompts to [ChatGPT](https://chat.openai.com/) to study the capabilities of large language models in inferring causality. **ChatGPT performs significantly better than current SoTA algorithms on the Tuebingen benchmark.**
 In the 74 pairs we have tried so far, ChatGPT obtains an accuracy of 92.5%. In comparison, the best known accuracy using conventional discovery methods is 70-80% [[Mooij et al. (2016)](https://jmlr.org/papers/v17/14-518.html), [Tagasovska et al. (2020)](https://proceedings.mlr.press/v119/tagasovska20a.html), [Compton et al. (2020)](https://proceedings.neurips.cc/paper/2020/hash/a979ca2444b34449a2c80b012749e9cd-Abstract.html), [Salem et al. (2022)](https://arxiv.org/abs/2211.12016)]. 
 
-Crucially, ChatGPT does not need access to the data for each variable. It can infer causality simply from the variable names. We use the following prompt for each variable name:
+Crucially, ChatGPT does not need access to the data for each variable. It can infer causality simply from the variable names. We use the following prompt for each cause-effect pair:
 
 `Does changing [varA] cause a change in [varB]? Please answer in a single word: Yes or No.`
 
@@ -32,7 +32,7 @@ We'll soon be updating all 108 pairs! To add a new cause-effect pair,
 2. Follow the protocol above to construct a prompt and get answers from ChatGPT. 
 3. Update the first two columns of results.txt and then rerun compute_benchmark_accuracy.ipynb notebook.
 
-
+**WARNING**: ChatGPT is a large language model and has no guarantee of providing the correct causality direction. Answers from ChatGPT or this repo should not be considered causal and we provide these results only for the purpose of exploratory research. In practice, we expect that domain experts will need to verify such results before using the inferred causal relationships for any downstream application. 
 
 
 
