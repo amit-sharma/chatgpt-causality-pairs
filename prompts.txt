@@ -1,0 +1,74 @@
+pair0001, does changing the altitude cause a change in temperature? Please answer in a single word: Yes or No.
+
+pair0005, does changing the age of an abalone cause a change in its length? Please answer in a single word: Yes or No.
+pair0013, does changing the displacement of a car cause a change in its fuel consumption? Please answer in a single word: Yes or No.
+pair0017, does changing the age of a person cause a change in their dividends from stocks? Please answer in a single word: Yes or No.
+pair0019, does changing the duration of eruption of a geyser cause a change in the time interval before the next eruption? Please answer in a single word: Yes or No.
+
+pair0025, does changing the compressive strength of concrete cause a change in amount of cement it contains? Please answer in a single word: Yes or No.
+pair0025, does changing the amount of cement in concrete cause a change in its compressive strength? Please answer in a single word: Yes or No.
+
+pair0033, does changing the alcohol consumption of a person cause a change in mean corpuscular volume in their blood? Please answer in a single word: Yes or No.
+pair0033, does changing the mean corpuscular volume in a person's blood cause a change in their alcohol consumption? Please answer in a single word: Yes or No.
+pair0038, does changing the age of a person cause a change in their body mass index? Please answer in a single word: Yes or No.
+does changing the temperature at time t cause a change in temperate at time t+1? Please answer in a single word: Yes or No.
+pair0042, does changing the day of year cause a change in temperature? Please answer in single word: Yes or No.
+pair0049, does changing the surface ozone concentration in a city cause a change in temperature at the city? Please answer in single word: Yes or No.
+does changing the number of cars in traffic cause a change in the type of day? Please answer in a single word: Yes or No.
+does changing the number of cars in traffic cause a change in day of week?
+
+
+does changing the outdoor temperature cause a change in indoor temperature? Please answer in a single word: Yes or No.
+
+
+
+Does changing the size of an apartment cause a change in its monthly rent? Please answer in a single word: Yes or No.
+Does changing the temperature cause a change in snowing? Please answer in a single word: Yes or No.
+
+Does changing the age of a child cause a change in relative spinal bone mineral density? Please answer in a single word: Yes or No.
+
+Does changing the mass loss 6 months after the start of the experiment cause a change in the mass loss 1 month after the start of the experiment? Please answer in a single word: Yes or No.
+
+Does changing the clay content in soil cause a change in the soil moisture? Please answer in a single word: Yes or No.
+Does changing the clay content in soil cause a change in organic carbon in soil? Please answer in a single word: Yes or No.
+
+Does changing the precipitation cause a change in the runoff in river catchment areas? Please answer in a single word: Yes or No.
+
+Does changing the temperature cause a change in electricity load in a region? Please answer in a single word: Yes or No.
+
+Does changing the hour of day cause a change in electricity load in a region? Please answer in a single word: Yes or No.
+
+Does changing the hour of day cause a change in the temperature? Please answer in a single word: Yes or No.
+
+
+does changing a ball's speed at the beginning of a ball track cause a change in its speed at the end of the track?Please answer in a single word: Yes or No.
+does changing a ball's speed at the end of a ball track cause a change in its speed at the beginning of the track?Please answer in a single word: Yes or No.
+
+
+
+does changing the language test score of a student cause a change in social-economic status of their family?  Please answer in a single word: Yes or No.
+
+does changing the published performance of a CPU on a benchmark mix cause a change in its cycle time?  Please answer in a single word: Yes or No.
+does changing the cycle time of a CPU cause a change in its published performance on a benchmark mix?  Please answer in a single word: Yes or No.
+
+does changing the grey value of a pixel cause a change in the brightness of the screen? Please answer in a single word: Yes or No.
+does changing the brightness of the screen cause a change in grey value of a pixel? Please answer in a single word: Yes or No.
+
+
+does changing the time interval between passing the third and the fourth light barrier of a ball track cause a change in the initial position of the ball?
+
+ does changing the initial position of the ball in a ball track cause a change in time interval between passing the first and the second light barrier of the track? Please answer in a single word: Yes or No.
+does changing the time interval between passing the first and the second light barrier of a ball track cause a change in the initial position of the ball? Please answer in a single word: Yes or No.
+
+does changing the time interval between passing the first and the second light barrier of a ball track cause a change in the time interval between passing the third and the fourth light barrier of the track? Please answer in a single word: Yes or No.
+
+does changing the time required for one round by an electric toy locomotive cause a change in its input voltage? Please answer in a single word: Yes or No.
+does changing the input voltage of an electric toy locomotive cause a change in time required for one round? Please answer in a single word: Yes or No.
+
+does changing the contrast of tilted Gabor patches cause a change in accuracy of detection of tilt by participants? Please answer in a single word: Yes or No.
+does changing the accuracy of detection of tilt of Gabor patches by participants cause a change in contrast of the Gabor patches? Please answer in a single word: Yes or No.
+
+does changing the time for 1/6 rotation of a Stirling engine cause a change in the temperature of its heat bath? Please answer in a single word: Yes or No. (answers Yes)
+
+does changing the temperature of the heat bath of a Stirling engine cause a change in time it takes for 1/6 rotation? Please answer in a single word: Yes or No.
+
