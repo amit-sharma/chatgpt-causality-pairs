@@ -72,3 +72,110 @@ pair0108,does changing the time for 1/6 rotation of a Stirling engine cause a ch
 
 pair0108,does changing the temperature of the heat bath of a Stirling engine cause a change in time it takes for 1/6 rotation? Please answer in a single word: Yes or No.
 
+pair0068,Does changing the number of bytes sent cause a change in the number of open http connections? Please answer in a single word: Yes or No.
+pair0068,Does changing in the number of open http connections cause a change the number of bytes sent? Please answer in a single word: Yes or No.
+
+pair0056,Does changing female life expectancy in 2000-2005 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0056,Does changing latitude cause a change in female life expectancy in 2000-2005? Please answer in a single word: Yes or No.
+
+pair0057,Does changing female life expectancy in 1995-2000 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0057,Does changing latitude cause a change in female life expectancy in 1995-2000? Please answer in a single word: Yes or No.
+
+pair0058,Does changing female life expectancy in 1990-1995 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0058,Does changing latitude cause a change in female life expectancy in 1990-1995? Please answer in a single word: Yes or No.
+
+pair0059,Does changing female life expectancy in 1985-1990 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0059,Does changing latitude cause a change in female life expectancy in 1985-1990? Please answer in a single word: Yes or No.
+
+pair0060,Does changing male life expectancy in 2000-2005 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0060,Does changing latitude cause a change in male life expectancy in 2000-2005? Please answer in a single word: Yes or No.
+
+pair0061,Does changing male life expectancy in 1995-2000 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0061,Does changing latitude cause a change in male life expectancy in 1995-2000? Please answer in a single word: Yes or No.
+
+pair0062,Does changing male life expectancy in 1990-1995 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0062,Does changing latitude cause a change in male life expectancy in 1990-1995? Please answer in a single word: Yes or No.
+
+pair0063,Does changing male life expectancy in 1985-1990 cause a change in latitude? Please answer in a single word: Yes or No.
+pair0063,Does changing latitude cause a change in male life expectancy in 1985-1990? Please answer in a single word: Yes or No.
+
+pair0064,Does changing access to drink water cause a change in infant mortality rate? Please answer in a single word: Yes or No.
+pair0064,Does changing infant mortality rate cause a change in access to drink water? Please answer in a single word: Yes or No.
+
+pair0065,Does changing the stock return of Hang Seng Bank cause a change in the stock return of HSBC Hldgs? Please answer in a single word: Yes or No.
+pair0065,Does changing the stock return of HSBC Hldgs cause a change in the stock return of Hang Seng Bank? Please answer in a single word: Yes or No.
+
+pair0066,Does changing the stock return of Hutchison cause a change in the stock return of Cheung kong? Please answer in a single word: Yes or No.
+pair0066,Does changing the stock return of Cheung kong cause a change in the stock return of Hutchison? Please answer in a single word: Yes or No.
+
+
+pair0067,Does changing the stock return of Cheung kong cause a change in the stock return of Sun Hung Kai Prop.? Please answer in a single word: Yes or No.
+pair0067,Does changing the stock return of Sun Hung Kai Prop. cause a change in the stock return of Cheung kong? Please answer in a single word: Yes or No.
+
+pair0069,Does changing inside temperature cause a change in outside temperature? Please answer in a single word: Yes or No.
+pair0069,Does changing outside temperature cause a change in inside temperature? Please answer in a single word: Yes or No.
+
+
+pair0070,Does changing parameter cause a change in answer? Please answer in a single word: Yes or No.
+pair0070,Does changing answer cause a change in parameter? Please answer in a single word: Yes or No.
+
+pair0071,Does changing symptoms cause a change in classification of disease? Please answer in a single word: Yes or No.
+pair0071,Does changing classification of disease cause a change in symptoms? Please answer in a single word: Yes or No.
+
+pair0072,Does changing sunspots cause a change in global mean temperature? Please answer in a single word: Yes or No.
+pair0072,Does changing global mean temperature cause a change in sunspots? Please answer in a single word: Yes or No.
+
+pair0073,Does changing CO2 emissions cause a change in energy use? Please answer in a single word: Yes or No.
+pair0073,Does changing energy use cause a change in CO2 emissions? Please answer in a single word: Yes or No.
+
+pair0074,Does changing gross national income per capita cause a change in life expectancy? Please answer in a single word: Yes or No.
+pair0074,Does changing life expectancy cause a change in gross national income per capita? Please answer in a single word: Yes or No.
+
+pair0075,Does changing mortality rate for children under 5 cause a change in gross national income per capita? Please answer in a single word: Yes or No.
+pair0075,Does changing gross national income per capita cause a change in mortality rate for children under 5? Please answer in a single word: Yes or No.
+
+pair0076, Does changing population growth cause a change in food consumption growth? Please answer in a single word: Yes or No.
+pair0076, Does changing food consumption growth cause a change in population growth? Please answer in a single word: Yes or No.
+
+pair0077,Does changing temperature cause a change in solar radiation? Please answer in a single word: Yes or No.
+pair0077,Does changing solar radiation cause a change in temperature? Please answer in a single word: Yes or No.
+
+
+pair0078,Does changing photosynthetic photon flux density cause a change in net ecosystem productivity? Please answer in a single word: Yes or No.
+pair0078,Does changing net ecosystem productivity cause a change in photosynthetic photon flux density? Please answer in a single word: Yes or No.
+
+pair0079,Does changing net ecosystem productivity cause a change in direct photosynthetic photon flux density? Please answer in a single word: Yes or No.
+pair0079,Does changing direct photosynthetic photon flux density cause a change in net ecosystem productivity? Please answer in a single word: Yes or No.
+
+pair0080,Does changing net ecosystem productivity cause a change in diffuse photosynthetic photon flux density? Please answer in a single word: Yes or No.
+pair0080,Does changing diffuse photosynthetic photon flux density cause a change in net ecosystem productivity? Please answer in a single word: Yes or No.
+
+
+pair0081,Does changing temperature cause a change in local CO2 flux in Brasschaat, Belgium? Please answer in a single word: Yes or No.
+pair0081,Does changing local CO2 flux in Brasschaat, Belgium cause a change in temperature? Please answer in a single word: Yes or No.
+
+pair0082,Does changing temperature cause a change in local CO2 flux in Hartheim, Germany? Please answer in a single word: Yes or No.
+pair0082,Does changing local CO2 flux in Hartheim, Germany cause a change in temperature? Please answer in a single word: Yes or No.
+
+pair0083,Does changing temperature cause a change in local CO2 flux in Park Falls, US? Please answer in a single word: Yes or No.
+pair0083,Does changing local CO2 flux in Park Falls, US cause a change in temperature? Please answer in a single word: Yes or No.
+
+pair0084,Does changing employment cause a change in population? Please answer in a single word: Yes or No.
+pair0084,Does changing population cause a change in employment? Please answer in a single word: Yes or No.
+
+pair0085,Does changing time of measurement cause a change in protein content of milk? Please answer in a single word: Yes or No.
+pair0085,Does changing protein content of milk cause a change in time of measurement? Please answer in a single word: Yes or No.
+
+
+pair0052,Does changing air temperature, surface pressure, sea level pressure and relative humidity of day 50 in year 2000 cause a change in air temperature, surface pressure, sea level pressure and relative humidity of day 51 in year 2000? Please answer in a single word: Yes or No.
+pair0052,Does changing air temperature, surface pressure, sea level pressure and relative humidity of day 51 in year 2000 cause a change in air temperature, surface pressure, sea level pressure and relative humidity of day 50 in year 2000? Please answer in a single word: Yes or No.
+
+pair0053,Does changing ozone concentration cause a change in wind speed, radiation and temperature? Please answer in a single word: Yes or No.
+pair0053,Does changing wind speed, radiation and temperature cause a change in ozone concentration? Please answer in a single word: Yes or No.
+
+pair0054,Does changing displacement, horsepower and weight cause a change in fuel consumption and miles per gallon? Please answer in a single word: Yes or No.
+pair0054,Does changing fuel consumption and miles per gallon cause a change in displacement, horsepower and weight? Please answer in a single word: Yes or No.
+
+pair0055,Does changing ozone concentration cause a change in radiation? Please answer in a single word: Yes or No.
+pair0055,Does changing radiation cause a change in ozone concentration? Please answer in a single word: Yes or No.
+
