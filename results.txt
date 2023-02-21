@@ -1,10 +1,8 @@
 CorrectACauseB,CorrectBCauseA,pairid, varA,varB,dataset,groundtruth
-
 1,1,pair0001,Altitude,Temperature,DWD,->
 1,1,pair0002,Altitude,Precipitation,DWD,->
 1,1,pair0003,Longitude,Temperature,DWD,->
 1,1,pair0004,Altitude,Sunshine hours,DWD,->
-
 1,1,pair0005,Age,Length,Abalone,->
 1,1,pair0006,Age,Shell weight,Abalone,->
 1,1,pair0007,Age,Diameter,Abalone,->
@@ -12,9 +10,7 @@ CorrectACauseB,CorrectBCauseA,pairid, varA,varB,dataset,groundtruth
 1,1,pair0009,Age,Whole weight,Abalone,->
 1,1,pair0010,Age,Shucked weight,Abalone,->
 1,1,pair0011,Age,Viscera weight,Abalone,->
-
 1,1,pair0012,Age,Wage per hour,census income,->
-
 1,1,pair0013,Displacement,Fuel consumption,auto-mpg,->
 1,1,pair0014,Horse power,Fuel consumption,auto-mpg,->
 1,1,pair0015,Weight,Fuel consumption,auto-mpg,->

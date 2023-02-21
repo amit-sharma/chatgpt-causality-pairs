@@ -1,7 +1,29 @@
 pair0001, does changing the altitude cause a change in temperature? Please answer in a single word: Yes or No.
-
+pair0001, does changing the temperature cause a change in altitude? Please answer in a single word: Yes or No.
+pair0002, does changing the altitude cause a change in precipitation? Please answer in a single word: Yes or No.
+pair0002, does changing the precipitation cause a change in altitude? Please answer in a single word: Yes or No.
+pair0003, does changing the longitude cause a change in temperature? Please answer in a single word: Yes or No.
+pair0003, does changing the temperature cause a change in longitude? Please answer in a single word: Yes or No.
+pair0004, does changing the altitude cause a change in sunshine hours? Please answer in a single word: Yes or No.
+pair0004, does changing the sunshine hours cause a change in altitude? Please answer in a single word: Yes or No.
 pair0005, does changing the age of an abalone cause a change in its length? Please answer in a single word: Yes or No.
+pair0005, does changing the length of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0006, does changing the age of an abalone cause a change in its shell weight? Please answer in a single word: Yes or No.
+pair0006, does changing the shell weight of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0007, does changing the age of an abalone cause a change in its diameter? Please answer in a single word: Yes or No.
+pair0007, does changing the diameter of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0008, does changing the age of an abalone cause a change in its height? Please answer in a single word: Yes or No.
+pair0008, does changing the height of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0009, does changing the age of an abalone cause a change in its whole weight? Please answer in a single word: Yes or No.
+pair0009, does changing the whole weight of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0010, does changing the age of an abalone cause a change in its shucked weight? Please answer in a single word: Yes or No.
+pair0010, does changing the shucked weight of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0011, does changing the age of an abalone cause a change in its viscera weight? Please answer in a single word: Yes or No.
+pair0011, does changing the viscera weight of an abalone cause a change in its age? Please answer in a single word: Yes or No.
+pair0012, does changing the age of a person cause a change in their wage per hour? Please answer in a single word: Yes or No.
+pair0012, does changing the wage per hour of a person cause a change in their age? Please answer in a single word: Yes or No.
 pair0013, does changing the displacement of a car cause a change in its fuel consumption? Please answer in a single word: Yes or No.
+pair0013, does changing the fuel consumption of a car cause a change in its displacement? Please answer in a single word: Yes or No.
 pair0017, does changing the age of a person cause a change in their dividends from stocks? Please answer in a single word: Yes or No.
 pair0019, does changing the duration of eruption of a geyser cause a change in the time interval before the next eruption? Please answer in a single word: Yes or No.
 
