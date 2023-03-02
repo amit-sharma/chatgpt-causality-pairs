@@ -18,3 +18,7 @@ text-curie-001
 accuracy:  0.5
 curie
 accuracy:  0.5092592592592593
+gpt-3.5-turbo
+accuracy:  0.8148148148148148
+gpt-3.5-turbo system
+accuracy:  0.8611111111111112

@@ -19,19 +19,26 @@ def read_prompts(filename):
     return prompts
 
 
-def query_gpt(prompts, model_name, output_file):
+def query_gpt(prompts, model_name, output_file, system=None):
     openai.api_key = os.getenv("OPENAI_API_KEY")
     with open(output_file, "w") as fout:
         for p in prompts:
-            response = openai.Completion.create(
-                    model=model_name,
-                    prompt=p["prompt"],
-                    temperature=1e-3,
-                    max_tokens=3,
-                    top_p=1,
-                    frequency_penalty=0,
-                    presence_penalty=0,
-                    logprobs=5)
+            if model_name == "gpt-3.5-turbo":
+                messages = []
+                if system:
+                    messages.append({"role": "system", "content": system})
+                messages.append({"role": "user", "content": p["prompt"]})
+                response = openai.ChatCompletion.create(model=model_name, messages=messages)
+            else:
+                response = openai.Completion.create(
+                        model=model_name,
+                        prompt=p["prompt"],
+                        temperature=1e-3,
+                        max_tokens=3,
+                        top_p=1,
+                        frequency_penalty=0,
+                        presence_penalty=0,
+                        logprobs=5)
             p["result"] = response
             fout.write(json.dumps(p) + "\n")
             time.sleep(0.1)
@@ -46,8 +53,11 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
         cnt = 0
         for line in fin:
             data = json.loads(line)
-            pred = data["result"]["choices"][0]["text"].strip().lower()
-            pred = 1 if pred == "yes" else 0
+            if gpt_result_file.find("gpt-3.5-turbo") != -1:
+                pred = data["result"]["choices"][0]["message"]["content"].strip().lower()
+            else:
+                pred = data["result"]["choices"][0]["text"].strip().lower()
+            pred = 1 if pred.startswith("yes") else 0
             preds.append(pred)
             y = labels[int(cnt / 2)]
             if cnt % 2 == 0:
@@ -70,11 +80,12 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
 if __name__ == "__main__":
     prompts = read_prompts("prompts.txt")
     # model_name = "text-davinci-003"
-    for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
-        gpt_output_file = "%s_results.jsonl" % model_name
-        query_gpt(prompts, model_name, gpt_output_file)
+    # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
+    for model_name in ["gpt-3.5-turbo"]:
+        gpt_output_file = "%s_system_results.jsonl" % model_name
+        query_gpt(prompts, model_name, gpt_output_file, system="You are a helpful assistant for causal reasoning.")
         groundtruth_file = "results.txt"
-        gpt_result_file = "%s_results.csv" % model_name
+        gpt_result_file = "%s_system_results.csv" % model_name
         print(model_name)
         generate_accuracy_results(groundtruth_file, gpt_output_file, gpt_result_file)
 
