@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 #SYSTEM_PROMPT = "You are a neuropathic pain diagnosis expert."
-NUM_EVALS = 50
+NUM_EVALS = None # 50
 def read_prompts(filename):
     df = pd.read_csv(filename)
     prompts = df[["pair_id", "prompt"]].to_dict('records')
@@ -15,7 +15,7 @@ def read_prompts(filename):
         prompts[i]["prompt"] = prompts[i]["prompt"].replace("\t", "\n")
         
     print(prompts[:2])
-    return prompts[:NUM_EVALS]
+    return prompts[:NUM_EVALS] if NUM_EVALS is not None else prompts
 
 def query_gpt(prompts, model_name, output_file, system=None):
     openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -47,7 +47,10 @@ def query_gpt(prompts, model_name, output_file, system=None):
 
 
 def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
-    csv_results = pd.read_csv(groundtruth_file).loc[0:(NUM_EVALS-1), :]
+    if NUM_EVALS is None:
+        csv_results = pd.read_csv(groundtruth_file)
+    else:
+        csv_results = pd.read_csv(groundtruth_file).loc[0:(NUM_EVALS-1), :]
     print(csv_results)
     labels = csv_results["groundtruth"]
     preds, correct_cause = [], []
