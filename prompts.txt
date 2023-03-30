@@ -49,7 +49,7 @@ pair0024, does changing the heart rate of a person cause a change in their age? 
 pair0025, does changing the amount of cement in concrete cause a change in its compressive strength? Please answer in a single word: Yes or No.
 pair0025, does changing the compressive strength of concrete cause a change in the amount of cement it contains? Please answer in a single word: Yes or No.
 pair0026, does changing the amount of blast furnace slag in concrete cause a change in its compressive strength? Please answer in a single word: Yes or No.
-pair0026, does changing the compressive strength of concrete cause a change the amount of blast furnace slag it contains? Please answer in a single word: Yes or No.
+pair0026, does changing the compressive strength of concrete cause a change in the amount of blast furnace slag it contains? Please answer in a single word: Yes or No.
 pair0027, does changing the amount of fly ash in concrete cause a change in its compressive strength? Please answer in a single word: Yes or No.
 pair0027, does changing the compressive strength of concrete cause a change in the amount of fly ash it contains? Please answer in a single word: Yes or No.
 pair0028, does changing the amount of water in concrete cause a change in its compressive strength? Please answer in a single word: Yes or No.
@@ -133,7 +133,7 @@ pair0066,Does changing the stock return of Cheung kong cause a change in the sto
 pair0067,Does changing the stock return of Cheung kong cause a change in the stock return of Sun Hung Kai Prop.? Please answer in a single word: Yes or No.
 pair0067,Does changing the stock return of Sun Hung Kai Prop. cause a change in the stock return of Cheung kong? Please answer in a single word: Yes or No.
 pair0068,Does changing the number of bytes sent cause a change in the number of open http connections? Please answer in a single word: Yes or No.
-pair0068,Does changing in the number of open http connections cause a change the number of bytes sent? Please answer in a single word: Yes or No.
+pair0068,Does changing in the number of open http connections cause a change in the number of bytes sent? Please answer in a single word: Yes or No.
 pair0069,Does changing inside temperature cause a change in outside temperature? Please answer in a single word: Yes or No.
 pair0069,Does changing outside temperature cause a change in inside temperature? Please answer in a single word: Yes or No.
 pair0070,Does changing parameter cause a change in answer? Please answer in a single word: Yes or No.
