@@ -1,0 +1,12 @@
+HFLX: Sensible and latent heat flux
+SW: Net shortwave flux at the surface
+LW: Net longwave flux at the surface
+SLP: Sea level pressure
+Precip: Total precipitation
+RH: Relative humidity
+u10m: Meridional wind at 10m
+v10m: Zonal wind at 10m
+SI: Sea ice coverage/thickness
+CC: Total cloud cover
+CW: Total cloud water path
+GH: Geopotential height
