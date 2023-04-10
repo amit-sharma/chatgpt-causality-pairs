@@ -1,0 +1,51 @@
+,cause,effect,Query,Answer
+8007,L L4 Radikulopati,R Höftkamsbesvär,"L L4 Radikulopati causes R Höftkamsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+6527,L T12 Radikulopati,L Nedre bukbesvär,"L T12 Radikulopati causes L Nedre bukbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7023,R L1 Radikulopati,L Ljumskbesvär,"R L1 Radikulopati causes L Ljumskbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1241,R C6 Radikulopati,L Laterala armsbesvär,"R C6 Radikulopati causes L Laterala armsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1244,R C6 Radikulopati,R Armbågsbesvär,"R C6 Radikulopati causes R Armbågsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+6962,R L1 Radikulopati,IBS,"R L1 Radikulopati causes IBS.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+628,L C5 Radikulopati,Nackbesvär,"L C5 Radikulopati causes Nackbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+858,R C5 Radikulopati,R Laterala armbågsbesvär,"R C5 Radikulopati causes R Laterala armbågsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1061,L C6 Radikulopati,R Handbesvär,"L C6 Radikulopati causes R Handbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8014,L L4 Radikulopati,L Laterala vadbesvär,"L L4 Radikulopati causes L Laterala vadbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8959,R S1 Radikulopati,R Lårbesvär,"R S1 Radikulopati causes R Lårbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+3833,L T5 Radikulopati,L Bröstbesvär,"L T5 Radikulopati causes L Bröstbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+663,L C5 Radikulopati,R Interskapulära besvär,"L C5 Radikulopati causes R Interskapulära besvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1251,R C6 Radikulopati,R Under armsbesvär,"R C6 Radikulopati causes R Under armsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+6832,L L1 Radikulopati,L Mediala ljumskbesvär,"L L1 Radikulopati causes L Mediala ljumskbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+6837,L L1 Radikulopati,L Adduktortendalgi,"L L1 Radikulopati causes L Adduktortendalgi.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+5618,L T10 Radikulopati,IBS,"L T10 Radikulopati causes IBS.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8568,R L5 Radikulopati,L Bakhuvudvärk,"R L5 Radikulopati causes L Bakhuvudvärk.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+3834,L T5 Radikulopati,R Bröstbesvär,"L T5 Radikulopati causes R Bröstbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1048,L C6 Radikulopati,L Laterala armbågsbesvär,"L C6 Radikulopati causes L Laterala armbågsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+6832,L L1 Radikulopati,L Mediala ljumskbesvär,"L L1 Radikulopati causes L Mediala ljumskbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7996,L L4 Radikulopati,R Lumbago,"L L4 Radikulopati causes R Lumbago.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8604,R L5 Radikulopati,R Ischias,"R L5 Radikulopati causes R Ischias.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1451,L C7 Radikulopati,L Fingerbesvär,"L C7 Radikulopati causes L Fingerbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7488,R L2 Radikulopati,Nedre bukbesvär,"R L2 Radikulopati causes Nedre bukbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+5943,R T10 Radikulopati,Bröstryggsbesvär,"R T10 Radikulopati causes Bröstryggsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+68,R C3 Radikulopati,R Käkbesvär,"R C3 Radikulopati causes R Käkbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7222,L L2 Radikulopati,R Adduktortendalgi,"L L2 Radikulopati causes R Adduktortendalgi.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8384,L L5 Radikulopati,L Benbesvär,"L L5 Radikulopati causes L Benbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+854,R C5 Radikulopati,L Interskapulära besvär,"R C5 Radikulopati causes L Interskapulära besvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8198,R L4 Radikulopati,R Höftbesvär,"R L4 Radikulopati causes R Höftbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+6770,L L1 Radikulopati,IBS,"L L1 Radikulopati causes IBS.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8379,L L5 Radikulopati,Lumbago,"L L5 Radikulopati causes Lumbago.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8762,L S1 Radikulopati,L Lumbago,"L S1 Radikulopati causes L Lumbago.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8808,L S1 Radikulopati,L Lilltåbesvär,"L S1 Radikulopati causes L Lilltåbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+274,L C4 Radikulopati,R Skulderbesvär,"L C4 Radikulopati causes R Skulderbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+263,L C4 Radikulopati,L Nyckelbensbesvär,"L C4 Radikulopati causes L Nyckelbensbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8571,R L5 Radikulopati,Lumbago,"R L5 Radikulopati causes Lumbago.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+271,L C4 Radikulopati,L Axelbesvär,"L C4 Radikulopati causes L Axelbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8600,R L5 Radikulopati,R Fotvalvsbesvär,"R L5 Radikulopati causes R Fotvalvsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7408,R L2 Radikulopati,L Mediala ljumskbesvär,"R L2 Radikulopati causes L Mediala ljumskbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+52,R C3 Radikulopati,Nackbesvär,"R C3 Radikulopati causes Nackbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7618,L L3 Radikulopati,R Benbesvär,"L L3 Radikulopati causes R Benbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1819,L C8 Radikulopati,L Armbågsbesvär,"L C8 Radikulopati causes L Armbågsbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8589,R L5 Radikulopati,R Tibiaperialgi,"R L5 Radikulopati causes R Tibiaperialgi.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+1229,R C6 Radikulopati,L Axel impingement,"R C6 Radikulopati causes L Axel impingement.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+7217,L L2 Radikulopati,L Laterala ljumskbesvär,"L L2 Radikulopati causes L Laterala ljumskbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+2001,R C8 Radikulopati,R Axelbesvär,"R C8 Radikulopati causes R Axelbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8950,R S1 Radikulopati,R Adduktortendalgi,"R S1 Radikulopati causes R Adduktortendalgi.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
+8813,L S1 Radikulopati,L Hälbesvär,"L S1 Radikulopati causes L Hälbesvär.""R"" and ""L"" refer to the right and left sides of the body, respectively).Answer with true or false.",True
