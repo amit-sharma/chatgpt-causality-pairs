@@ -6,15 +6,13 @@ import re
 import pandas as pd
 import numpy as np
 
-#SYSTEM_PROMPT = "You are a neuropathic pain diagnosis expert."
 NUM_EVALS = None # 50
-DATADIR = "result/"
-#SYSTEM = "You are a helpful assistant for causal reasoning."
-SYSTEM = "You are an expert on neuropathic pain diagnosis."
+DATADIR = ""
+SYSTEM = "You are a helpful assistant for counterfactual reasoning."
 
 def read_prompts(filename):
     df = pd.read_csv(filename)
-    prompts = df[["pair_id", "prompt"]].to_dict('records')
+    prompts = df[["qid", "prompt"]].to_dict('records')
     for i in range(len(prompts)):
         prompts[i]["prompt"] = prompts[i]["prompt"].replace("\t", "\n")
         
@@ -33,7 +31,7 @@ def query_gpt(prompts, model_name, output_file, system=None):
                 response = openai.ChatCompletion.create(
                         model=model_name, 
                         messages=messages,
-                        temperature=0.7)
+                        temperature=0.1)
             else:
                 response = openai.Completion.create(
                         model=model_name,
@@ -74,7 +72,7 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
             #ans = ans.strip("<answer>").rstrip("</answer>")
             preds.append(ans)
             #numeric_ans = 1 if "yes" in ans else 0 if "no" in ans else -1
-            numeric_ans = "A" if ">a" in ans else ("C" if ">c" in ans else ("B" if ">b" in ans else "Error"))
+            numeric_ans = "A" if ">a" in ans else ("C" if ">c" in ans else ("B" if ">b" in ans else ("D" if ">d" in ans else "Error")))
             y = labels[int(cnt)]
             print(ans, numeric_ans)
             if numeric_ans == "Error":
