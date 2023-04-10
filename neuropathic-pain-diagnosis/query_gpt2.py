@@ -58,6 +58,7 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
     print(csv_results)
     labels = csv_results["groundtruth"]
     preds, correct_cause = [], []
+    tp,fp, tn, fn = 0,0,0,0
     with open(gpt_result_file) as fin:
         cnt = 0
         for line in fin:
@@ -80,17 +81,32 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
             if numeric_ans == "Error":
                 correct_cause.append(-1)
             elif y == numeric_ans:
+                if y in ["A", "B"]:
+                    tp += 1
+                else:
+                    tn += 1
                 correct_cause.append(1)
             else:
+                if y in ["A", "B"]:
+                    fn += 1
+                else:
+                    fp += 1
                 correct_cause.append(0)
             cnt += 1
     print(correct_cause, sum(correct_cause))
     csv_results["CorrectCause"] = correct_cause
     accuracy = np.mean(correct_cause)
     print("accuracy: ", accuracy)
+
     filt_csv_res = csv_results[(csv_results["CorrectCause"]!=-1)]
     accuracy = np.mean(filt_csv_res["CorrectCause"].tolist())
     print("accuracy: ", accuracy)
+    prec =  tp/(fp+tp)
+    rec = tp/(tp + fn)
+    f1 = 2 * prec * rec /(prec+rec)
+    print("Precision",prec)
+    print("recall", rec)
+    print("F1", f1)
     csv_results.to_csv(result_file, index=False)
 
 if __name__ == "__main__":
