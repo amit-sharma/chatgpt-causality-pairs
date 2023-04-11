@@ -94,7 +94,7 @@ if __name__ == "__main__":
     # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
     for model_name in ["gpt-3.5-turbo"]:# ["text-davinci-003"]: #["gpt-3.5-turbo"]:
         gpt_output_file = "%s_system_results_singleprompt.jsonl" % model_name
-        query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
+        #query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
         groundtruth_file = "results.txt"
         gpt_result_file = "%s_system_results_singleprompt.csv" % model_name
         print(model_name)
