@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 #SYSTEM_PROMPT = "You are a neuropathic pain diagnosis expert."
-NUM_EVALS = 10
+NUM_EVALS = None
 def read_prompts(filename):
     df = pd.read_csv(filename)
     prompts = df[["pair_id", "prompt"]].to_dict('records')

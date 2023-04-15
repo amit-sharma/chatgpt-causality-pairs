@@ -1,4 +1,5 @@
 import os
+import sys
 import openai
 import json
 import time
@@ -8,18 +9,20 @@ import numpy as np
 
 #SYSTEM_PROMPT = "You are a neuropathic pain diagnosis expert."
 NUM_EVALS = None # 50
-DATADIR = "result/"
+#DATADIR = "result/"
+DATADIR = ""
 #SYSTEM = "You are a helpful assistant for causal reasoning."
 SYSTEM = "You are an expert on neuropathic pain diagnosis."
+SKIP_PROMPTS = 101
 
-def read_prompts(filename):
+def read_prompts(filename, skip_prompts=0):
     df = pd.read_csv(filename)
     prompts = df[["pair_id", "prompt"]].to_dict('records')
     for i in range(len(prompts)):
         prompts[i]["prompt"] = prompts[i]["prompt"].replace("\t", "\n")
         
-    print(prompts[:2])
-    return prompts[:NUM_EVALS] if NUM_EVALS is not None else prompts
+    print(prompts[skip_prompts:(skip_prompts+2)])
+    return prompts[skip_prompts:NUM_EVALS] if NUM_EVALS is not None else prompts[skip_prompts:]
 
 def query_gpt(prompts, model_name, output_file, system=None):
     openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -75,11 +78,19 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
             #ans = ans.strip("<answer>").rstrip("</answer>")
             preds.append(ans)
             #numeric_ans = 1 if "yes" in ans else 0 if "no" in ans else -1
-            numeric_ans = "A" if ">a" in ans else ("C" if ">c" in ans else ("B" if ">b" in ans else "Error"))
+            numeric_ans = "A" if ">a" in ans else ("C" if (">c" in ans or ">neither" in ans) else ("B" if ">b" in ans else "Error"))
+            if numeric_ans == "Error":
+                try:
+                    ans2 = re.search(r"answer: [abc]", pred).group(0)
+                    numeric_ans = ans2[-1].upper()
+                except AttributeError:
+                    ans2 = "Error"
+                    print("STILL CANNOT FIND")
+                
             y = labels[int(cnt)]
             print(ans, numeric_ans)
             if numeric_ans == "Error":
-                correct_cause.append(-1)
+                correct_cause.append(0.5)
             elif y == numeric_ans:
                 if y in ["A", "B"]:
                     tp += 1
@@ -111,12 +122,12 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
 
 if __name__ == "__main__":
     datadir = DATADIR
-    prompts = read_prompts(datadir + "prompts.csv")
+    prompts = read_prompts(datadir + "prompts.csv", skip_prompts=SKIP_PROMPTS)
     # model_name = "text-davinci-003"
     # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
-    for model_name in ["gpt-3.5-turbo"]:# ["text-davinci-003"]: #["gpt-3.5-turbo"]:
+    for model_name in ["text-davinci-003"]:
         gpt_output_file = datadir + "%s_system_results.jsonl" % model_name
-        query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
+        #query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
         groundtruth_file = datadir + "groundtruth.csv"
         gpt_result_file = datadir + "%s_system_results.csv" % model_name
         print(model_name)

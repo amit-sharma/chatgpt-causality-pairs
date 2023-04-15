@@ -54,7 +54,6 @@ pd.set_option('display.max_rows', 222)
 print(nms[26], list(graph.nodes())[26])
 #print(df)
 #print(nm_dict)
-
 id_arr = []
 prompts = []
 answers = []
