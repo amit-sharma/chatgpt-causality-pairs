@@ -76,7 +76,7 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
             y = labels[int(cnt)]
             print(ans, numeric_ans)
             if numeric_ans == "Error":
-                correct_cause.append(-1)
+                correct_cause.append(0.33) # assuming random chance over 3 options
             elif y == numeric_ans:
                 correct_cause.append(1)
             else:

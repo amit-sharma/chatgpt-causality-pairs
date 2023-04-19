@@ -12,15 +12,25 @@ EXPLAIN_TEMPLATE = "{0} Explain what is {1} and {2}. Then reason whether {1} can
 STEP_TEMPLATE = "{0} Let's think step-by-step whether {1} can cause {2}. Then provide your final answer on whether {1} causes {2}, within the tags <Answer>Can cause/Cannot cause</Answer>."
 SINGLE_TEMPLATE = """{0} Which cause-and-effect relationship is more likely?\tA. {1} causes {2}.\tB. {2} causes {1}.\t\tLet's work this out in a step by step way to be sure that we have the right answer. Then provide your final answer within the tags <Answer>A/B</Answer>."""
 
+
 def expand_node_text(s):
     if re.match("[LR] [A-Z][0-9]+", s):
         s = s + " Radiculopathy"
-    if "problems" in s:
-        s = s.replace("problems", "problem symptoms")
+    #if "problems" in s:
+    #    s = s.replace("problems", "problem symptoms")
     if s.startswith("R "):
         s = s.replace("R ", "Right ", 1)
     if s.startswith("L "):
         s = s.replace("L ", "Left ", 1)
+    return s
+
+def fix_translation(s):
+    s = s.replace("discomfort", "pain")
+    s = s.replace("Discomfort", "pain")
+    s = s.replace("disorder", "pain")
+    s = s.replace("Disorder", "pain")
+    s = s.replace("problems", "pain")
+    s = s.replace("Problems", "pain")
     return s
 
 # load json data from a file
@@ -29,6 +39,7 @@ with open('data.json', 'r') as f:
 
 # data is now a dict object containing the JSON data
 print(len(data["nodes"]))
+print([v["id"] for v in data["nodes"]])
 print(len(data["links"]))
 graph = nx.node_link_graph(data, directed=True, multigraph=False)
 
@@ -67,8 +78,13 @@ random.shuffle(rand_edges)
 for (s,t) in rand_edges:
     pair_id_str = "pair" + str(pair_id)
     id_arr.append(pair_id_str)
+
     s = expand_node_text(s)
     t = expand_node_text(t)
+
+    s = fix_translation(s)
+    t = fix_translation(t)
+    print(s,t)
     
     if random.random() > 0.5:
         prt = prt_template.format(prefix, s, t) 

@@ -3,7 +3,7 @@ import json
 import re
 from scipy.spatial import distance
 import plot_graph
-
+import sys
 
 def dist_between_matrices_normHamming(A,B):
     return distance.hamming(A.flatten(),B.flatten())
@@ -22,7 +22,7 @@ graph_Yiyi=np.array([[0,0,0,1,1,0,1,1,1,1,1,0],
                       [1,1,1,0,1,1,0,0,0,0,0,0],
                       [1,1,1,0,1,1,0,0,0,0,0,0],
                       [0,0,1,1,0,1,0,0,0,0,0,0]])
-
+print(np.sum(graph_Yiyi))
 graph_h0k2=np.array([[0,0,0,0,0,0,0,0,0,0,0,0], # test 1: hidden_layer=0, kernel_size=2
             [0,0,0,0,0,0,0,0,0,0,0,0],
                   	[0,0,0,0,0,0,0,0,0,0,0,0],
@@ -47,6 +47,7 @@ graph_h0k4=np.array([[0,0,0,0,0,0,0,0,0,0,0,0], # test 2: hidden_layer=0, kernel
                   	[0,0,0,0,0,0,0,0,0,0,0,0],
                   	[0,0,1,0,0,0,0,0,0,0,0,0],
                   	[0,0,0,1,0,0,0,0,0,0,0,0]])
+print(np.sum(graph_h0k4))
 graph_h0k6=np.array([[0,0,0,0,0,0,0,0,0,0,0,0], # test 3: hidden_layer=0, kernel_size=6
             [0,0,0,0,0,0,0,0,0,0,0,0],
                   	[0,0,0,0,0,0,0,0,0,0,0,0],

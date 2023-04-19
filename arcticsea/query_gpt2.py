@@ -8,8 +8,8 @@ import numpy as np
 
 SYSTEM = "You are a helpful assistant on causal reasoning. Your goal is to answer factually and concisely questions about cause and effect in arctic sea ice and atmosphere sciences. If you are not sure, do not claim any causal relationship."
 #For each question, first define the concepts involved and then reason about each choice. Make sure your answer is factual and based on science."
-NUM_EVALS = 2#None # 50
-NUM_TRIES = 3
+NUM_EVALS = None#None # 50
+NUM_TRIES = 1
 def read_prompts(filename):
     df = pd.read_csv(filename)
     prompts = df[["pair_id", "prompt"]].to_dict('records')
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     prompts = read_prompts("prompts.csv")
     # model_name = "text-davinci-003"
     # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
-    for model_name in ["gpt-3.5-turbo"]: #["text-davinci-003"]: #["gpt-3.5-turbo"]:
+    for model_name in ["text-davinci-003"]: #["text-davinci-003"]: #["gpt-3.5-turbo"]:
         gpt_output_file = "%s_system_results_singleprompt.jsonl" % model_name
         query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
         gpt_result_file = "%s_system_results_singleprompt.csv" % model_name

@@ -21,11 +21,28 @@ SINGLE_TEMPLATE2 = "Does there exist a cause-and-effect relationship? Consider o
 prefix = ""
 prt_template = SINGLE_TEMPLATE1 #EXPLAIN_TEMPLATE
 
+
+trans_dict = {}
+dicdf = pd.read_csv("result/proc_translated_gpt_pain.csv", header=None, names=['id', 'swedname','name'])
+for i in range(len(dicdf)):
+    trans_dict[dicdf.at[i, "swedname"].strip()] = dicdf.at[i, "name"].strip()
+print(trans_dict)
+
+def translate(s):
+    s = s.replace("Radikulopati", "Radiculopathy")
+    s = s.replace("radikulopati", "Radiculopathy")
+    if s in trans_dict:
+        print("Hit")
+        return trans_dict[s]
+    else:
+        return s
+
+
 def expand_node_text(s):
-    if re.match("[LR] [A-Z][0-9]+", s):
-        s = s + " Radiculopathy"
-    if "problems" in s:
-        s = s.replace("problems", "problem symptoms")
+    #if re.match("[LR] [A-Z][0-9]+", s):
+    #    s = s + " Radiculopathy"
+    #if "problems" in s:
+    #    s = s.replace("problems", "problem symptoms")
     if s.startswith("R "):
         s = s.replace("R ", "Right ", 1)
     if s.startswith("L "):
@@ -120,6 +137,10 @@ for i in range(len(merged)):
     s = merged.at[i, "cause"]
     t = merged.at[i, "effect"]
     pair_id_str = "pair" + str(i)
+    # first translate the text
+    s = translate(s)
+    t = translate(t)
+    print(s,t)
     s = expand_node_text(s)
     t = expand_node_text(t)
     

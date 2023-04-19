@@ -6,8 +6,8 @@ import random
 import csv
 import json
 
-SIMPLE_TEMPLATE3 = "{0} {1}\tA: {2}\tB: {3}\tC: {4}\t\tProvide your answer within the tags, <Answer>A/B/C</Answer>."
-SIMPLE_TEMPLATE4 = "{0} {1}\tA: {2}\tB: {3}\tC: {4}\tD: {5}\t\tProvide your answer within the tags, <Answer>A/B/C/D</Answer>."
+SIMPLE_TEMPLATE3 = "{0} {1}\tA: {2}\tB: {3}\tC: {4}\t\tLet's work this out in a step by step way to be sure that we have the right answer. Then provide your final answer within the tags, <Answer>A/B/C</Answer>."
+SIMPLE_TEMPLATE4 = "{0} {1}\tA: {2}\tB: {3}\tC: {4}\tD: {5}\t\tLet's work this out in a step by step way to be sure that we have the right answer. Then provide your final answer within the tags, <Answer>A/B/C/D</Answer>."
 
 # load json data from a filea
 q_ids = []
