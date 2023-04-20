@@ -1,0 +1,29 @@
+pair_id,pair_id_type,ans_type,groundtruth,CorrectCause
+0,Symmetric Overdetermination,nec,No,1.0
+1,Symmetric Overdetermination,nec,Yes,1.0
+2,Switch,nec,No,0.0
+3,Switch,nec,No,1.0
+4,Late Preemption,nec,No,0.0
+5,Early Preemption,nec,No,1.0
+6,Early Preemption,nec,No,0.0
+7,Double Preemption,nec,Yes,1.0
+8,Bogus Preemption,nec,No,1.0
+9,Short Circuit,nec,No,0
+10,Miscellaneous,nec,Yes,1.0
+11,Miscellaneous,nec,Yes,1.0
+12,Miscellaneous,nec,Yes,1.0
+13,Miscellaneous,nec,No,0.0
+0,Symmetric Overdetermination,suff,Yes ,0.0
+1,Symmetric Overdetermination,suff,No ,1.0
+2,Switch,suff,No,1.0
+3,Switch,suff,Yes,0.0
+4,Late Preemption,suff,Yes ,1.0
+5,Early Preemption,suff,Yes,0.0
+6,Early Preemption,suff,Yes,0.0
+7,Double Preemption,suff,No ,1.0
+8,Bogus Preemption,suff,Yes ,0.0
+9,Short Circuit,suff,Yes,0.0
+10,Miscellaneous,suff,No,1.0
+11,Miscellaneous,suff,Yes,0.0
+12,Miscellaneous,suff,Yes,0.0
+13,Miscellaneous,suff,No,1.0

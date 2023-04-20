@@ -13,10 +13,16 @@ DATADIR = ""
 #DATADIR = ""
 SYSTEM = None #"You are a helpful assistant for causal reasoning."
 SKIP_PROMPTS = 0
-
-openai.api_type = "azure"
-openai.api_version = "2023-03-15-preview" 
-
+CHATMODELS = ["gpt-35-turbo",'gpt-4', 'gpt-3.5-turbo']
+AZURE = False
+DELAY = 1
+PROMPTS = "prompts_lab"
+prompt_suffix = "_" + PROMPTS.split("_")[1] if "_" in PROMPTS else ""
+if AZURE:
+    openai.api_type = "azure"
+    openai.api_version = "2023-03-15-preview" 
+    openai.api_base = os.getenv("OPENAI_API_BASE")  # Your Azure OpenAI resource's endpoint value.
+    DELAY = 5
 
 def read_prompts(filename, skip_prompts=0):
     df = pd.read_csv(filename)
@@ -29,19 +35,24 @@ def read_prompts(filename, skip_prompts=0):
 
 def query_gpt(prompts, model_name, output_file, system=None):
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.api_base = os.getenv("OPENAI_API_BASE")  # Your Azure OpenAI resource's endpoint value.
 
     with open(output_file, "w") as fout:
         i = 0
         while i < len(prompts):
             try:
-                if model_name in ["gpt-35-turbo",'gpt-4']:
+                if model_name in CHATMODELS:
                     messages = []
                     if system:
                         messages.append({"role": "system", "content": system})
                     messages.append({"role": "user", "content": prompts[i]["prompt"]})
-                    response = openai.ChatCompletion.create(
+                    if openai.api_type == "azure":
+                        response = openai.ChatCompletion.create(
                             engine=model_name, 
+                            messages=messages,
+                            temperature=0.7)
+                    else:
+                        response = openai.ChatCompletion.create(
+                            model=model_name, 
                             messages=messages,
                             temperature=0.7)
                 else:
@@ -61,7 +72,7 @@ def query_gpt(prompts, model_name, output_file, system=None):
             except openai.error.RateLimitError:
                 print("FACED a rate limit")
                 time.sleep(10)
-            time.sleep(10)
+            time.sleep(DELAY)
 
 
 def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
@@ -119,14 +130,14 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
 
 if __name__ == "__main__":
     datadir = DATADIR
-    prompts = read_prompts(datadir + "prompts.csv", skip_prompts=SKIP_PROMPTS)
+    prompts = read_prompts(datadir + PROMPTS + ".csv", skip_prompts=SKIP_PROMPTS)
     # model_name = "text-davinci-003"
     # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
-    for model_name in ["gpt-4"]:
-        gpt_output_file = datadir + "%s_system_results.jsonl" % model_name
+    for model_name in ["gpt-3.5-turbo"]:
+        gpt_output_file = datadir + "{}_system_results{}.jsonl".format(model_name,prompt_suffix)
         #query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
-        groundtruth_file = datadir + "groundtruth.csv"
-        gpt_result_file = datadir + "%s_system_results.csv" % model_name
+        groundtruth_file = datadir + "groundtruth{}.csv".format(prompt_suffix)
+        gpt_result_file = datadir + "{}_system_results{}.csv".format(model_name,prompt_suffix)
         print(model_name)
         generate_accuracy_results(groundtruth_file, gpt_output_file, gpt_result_file)
 

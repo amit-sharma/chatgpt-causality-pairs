@@ -11,7 +11,8 @@ TEMPLATE = "You are an expert in counterfactual reasoning. Given an event, use t
 TEMPLATE2 = "You are an expert in counterfactual reasoning. A sufficient cause can independently cause a given event even as other variables change their values. Based on this definition, answer the following question.\t\t{}\t\tIs {} a {} cause for {}?\t\tAfter your reasoning, provide the final answer within the tags <Answer>Yes/No</Answer>."
 TEMPLATE3 = "You are an expert in counterfactual reasoning. A sufficient cause can independently cause a given event even as other variables change their values. There can be multiple sufficient causes; a sufficient cause need not be necessary. Based on this definition, answer the following question.\t\t{}\t\tIs {} a {} cause for {}?\t\tAfter your reasoning, provide the final answer within the tags <Answer>Yes/No</Answer>."
 
-df = pd.read_csv("data.csv", sep=",")
+FILE = "lab_data.csv"
+df = pd.read_csv(FILE, sep=",")
 print(df)
 id_arr = []
 prompts = []
@@ -43,9 +44,9 @@ for i in range(len(df)):
 
 prdf = pd.DataFrame({'pair_id':id_arr, 'prompt':prompts}) 
 print(prdf["prompt"][0])
-prdf.to_csv("prompts.csv", index=False, header=True)
+prdf.to_csv("prompts_{}.csv".format(FILE.split("_")[0]), index=False, header=True)
 
 
 grdf = pd.DataFrame({'pair_id': id_arr, 'pair_id_type': pair_id_types, 'ans_type': anstype, 'groundtruth': answers})
 print(grdf)
-grdf.to_csv("groundtruth.csv", index=False, header=True)
+grdf.to_csv("groundtruth_{}.csv".format(FILE.split("_")[0]), index=False, header=True)
