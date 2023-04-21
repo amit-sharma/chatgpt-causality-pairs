@@ -16,7 +16,7 @@ SKIP_PROMPTS = 0
 CHATMODELS = ["gpt-35-turbo",'gpt-4', 'gpt-3.5-turbo']
 AZURE = False
 DELAY = 1
-PROMPTS = "prompts_lab"
+PROMPTS = "prompts"
 prompt_suffix = "_" + PROMPTS.split("_")[1] if "_" in PROMPTS else ""
 if AZURE:
     openai.api_type = "azure"
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
     for model_name in ["gpt-3.5-turbo"]:
         gpt_output_file = datadir + "{}_system_results{}.jsonl".format(model_name,prompt_suffix)
-        #query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
+        query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
         groundtruth_file = datadir + "groundtruth{}.csv".format(prompt_suffix)
         gpt_result_file = datadir + "{}_system_results{}.csv".format(model_name,prompt_suffix)
         print(model_name)
