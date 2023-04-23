@@ -1,0 +1,951 @@
+pair_id,prompt,groundtruth
+pair0,Does Right C7 Radiculopathy cause Right Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair0,Does Right Shoulder pain cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair1,Does Left L5 Radiculopathy cause Left Leg pain? Please answer in a single word: Yes or No.,Yes
+pair1,Does Left Leg pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair2,Does Right C6 Radiculopathy cause Right neck? Please answer in a single word: Yes or No.,Yes
+pair2,Does Right neck cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair3,Does Left L4 Radiculopathy cause Left Hip joint? Please answer in a single word: Yes or No.,Yes
+pair3,Does Left Hip joint cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair4,Does Right L1 Radiculopathy cause Right Lateral groin pain? Please answer in a single word: Yes or No.,Yes
+pair4,Does Right Lateral groin pain cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair5,Does Left T5 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair5,Does Breast Backache cause Left T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair6,Does Right L4 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair6,Does lumbago cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair7,Does DLS C6-C7 cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair7,Does Left C7 Radiculopathy cause DLS C6-C7? Please answer in a single word: Yes or No.,No
+pair8,Does Left L4 Radiculopathy cause Left Front knee pain? Please answer in a single word: Yes or No.,Yes
+pair8,Does Left Front knee pain cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair9,Does Left L5 Radiculopathy cause Left Footstool trouble? Please answer in a single word: Yes or No.,Yes
+pair9,Does Left Footstool trouble cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair10,Does Left T4 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair10,Does Toracal dysfunction cause Left T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair11,Does Left C6 Radiculopathy cause Left Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair11,Does Left Shoulder trouble cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair12,Does Left C4 Radiculopathy cause Central chest pain? Please answer in a single word: Yes or No.,Yes
+pair12,Does Central chest pain cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair13,Does Left L2 Radiculopathy cause Left Adductor tendon? Please answer in a single word: Yes or No.,Yes
+pair13,Does Left Adductor tendon cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair14,Does DLS T2-T3 cause Left T3 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair14,Does Left T3 Radiculopathy cause DLS T2-T3? Please answer in a single word: Yes or No.,No
+pair15,Does Right T2 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair15,Does Breast Backache cause Right T2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair16,Does Left S1 Radiculopathy cause Left Achilles pain? Please answer in a single word: Yes or No.,Yes
+pair16,Does Left Achilles pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair17,Does Right S2 Radiculopathy cause Right adductor tendonitis ? Please answer in a single word: Yes or No.,Yes
+pair17,Does Right adductor tendonitis  cause Right S2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair18,Does Left C7 Radiculopathy cause Left Finger trouble? Please answer in a single word: Yes or No.,Yes
+pair18,Does Left Finger trouble cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair19,Does Right C6 Radiculopathy cause Right shoulder impingement? Please answer in a single word: Yes or No.,Yes
+pair19,Does Right shoulder impingement cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair20,Does Left L2 Radiculopathy cause Left Hip pains? Please answer in a single word: Yes or No.,Yes
+pair20,Does Left Hip pains cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair21,Does Left T10 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair21,Does IBS cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair22,Does Right L5 Radiculopathy cause Right Foot pain? Please answer in a single word: Yes or No.,Yes
+pair22,Does Right Foot pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair23,Does Left C7 Radiculopathy cause Left Medial elbow pain? Please answer in a single word: Yes or No.,Yes
+pair23,Does Left Medial elbow pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair24,Does DLS C2-C3 cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair24,Does Right C3 Radiculopathy cause DLS C2-C3? Please answer in a single word: Yes or No.,No
+pair25,Does Left S1 Radiculopathy cause Left Achillodyni? Please answer in a single word: Yes or No.,Yes
+pair25,Does Left Achillodyni cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair26,Does Left L5 Radiculopathy cause Left Ischias? Please answer in a single word: Yes or No.,Yes
+pair26,Does Left Ischias cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair27,Does Right C3 Radiculopathy cause Right Headache? Please answer in a single word: Yes or No.,Yes
+pair27,Does Right Headache cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair28,Does Right S1 Radiculopathy cause Right Achilles pain? Please answer in a single word: Yes or No.,Yes
+pair28,Does Right Achilles pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair29,Does Left S1 Radiculopathy cause Left Ischias? Please answer in a single word: Yes or No.,Yes
+pair29,Does Left Ischias cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair30,Does Right C5 Radiculopathy cause Right Front Axle pain? Please answer in a single word: Yes or No.,Yes
+pair30,Does Right Front Axle pain cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair31,Does Right L2 Radiculopathy cause Right Lateral groin pain? Please answer in a single word: Yes or No.,Yes
+pair31,Does Right Lateral groin pain cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair32,Does Left C2 Radiculopathy cause Left Tinnitus? Please answer in a single word: Yes or No.,Yes
+pair32,Does Left Tinnitus cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair33,Does Right C5 Radiculopathy cause Right Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair33,Does Right Shoulder trouble cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair34,Does Left S1 Radiculopathy cause Left rear thigh pain? Please answer in a single word: Yes or No.,Yes
+pair34,Does Left rear thigh pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair35,Does Right C7 Radiculopathy cause Right Armband? Please answer in a single word: Yes or No.,Yes
+pair35,Does Right Armband cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair36,Does Right L5 Radiculopathy cause Right Knee trouble? Please answer in a single word: Yes or No.,Yes
+pair36,Does Right Knee trouble cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair37,Does Right C7 Radiculopathy cause Right Wrist pain? Please answer in a single word: Yes or No.,Yes
+pair37,Does Right Wrist pain cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair38,Does DLS S1-S2 cause Right S2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair38,Does Right S2 Radiculopathy cause DLS S1-S2? Please answer in a single word: Yes or No.,No
+pair39,Does Left C4 Radiculopathy cause Left Neck pain? Please answer in a single word: Yes or No.,Yes
+pair39,Does Left Neck pain cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair40,Does Right C2 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair40,Does neck pain cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair41,Does DLS C5-C6 cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair41,Does Right C6 Radiculopathy cause DLS C5-C6? Please answer in a single word: Yes or No.,No
+pair42,Does Left C4 Radiculopathy cause Left Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair42,Does Left Shoulder pain cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair43,Does Right C8 Radiculopathy cause Right Medial elbow pain? Please answer in a single word: Yes or No.,Yes
+pair43,Does Right Medial elbow pain cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair44,Does Left L5 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair44,Does Backache cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair45,Does Right C3 Radiculopathy cause mouth? Please answer in a single word: Yes or No.,Yes
+pair45,Does mouth cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair46,Does Left C6 Radiculopathy cause Intracapular pain? Please answer in a single word: Yes or No.,Yes
+pair46,Does Intracapular pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair47,Does DLS L5-S1 cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair47,Does Right S1 Radiculopathy cause DLS L5-S1? Please answer in a single word: Yes or No.,No
+pair48,Does Right L2 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair48,Does Abdominal pain cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair49,Does Left L5 Radiculopathy cause Left Obesity? Please answer in a single word: Yes or No.,Yes
+pair49,Does Left Obesity cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair50,Does Left L5 Radiculopathy cause Left Hip joint? Please answer in a single word: Yes or No.,Yes
+pair50,Does Left Hip joint cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair51,Does Left C8 Radiculopathy cause Left Elbow pain? Please answer in a single word: Yes or No.,Yes
+pair51,Does Left Elbow pain cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair52,Does Left L5 Radiculopathy cause Left Medial knee joint pain? Please answer in a single word: Yes or No.,Yes
+pair52,Does Left Medial knee joint pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair53,Does Right C6 Radiculopathy cause Right Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair53,Does Right Shoulder pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair54,Does Right C6 Radiculopathy cause Intracapular pain? Please answer in a single word: Yes or No.,Yes
+pair54,Does Intracapular pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair55,Does Left C3 Radiculopathy cause pharyngeal pain? Please answer in a single word: Yes or No.,Yes
+pair55,Does pharyngeal pain cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair56,Does Right T9 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair56,Does Breast Backache cause Right T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair57,Does Right L5 Radiculopathy cause Right Ischias? Please answer in a single word: Yes or No.,Yes
+pair57,Does Right Ischias cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair58,Does Left L4 Radiculopathy cause Left Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair58,Does Left Thigh pain cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair59,Does Right S1 Radiculopathy cause Coccydyni? Please answer in a single word: Yes or No.,Yes
+pair59,Does Coccydyni cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair60,Does DLS T7-T8 cause Left T8 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair60,Does Left T8 Radiculopathy cause DLS T7-T8? Please answer in a single word: Yes or No.,No
+pair61,Does Left L2 Radiculopathy cause Left Lumbago? Please answer in a single word: Yes or No.,Yes
+pair61,Does Left Lumbago cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair62,Does DLS T11-T12 cause Right T12 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair62,Does Right T12 Radiculopathy cause DLS T11-T12? Please answer in a single word: Yes or No.,No
+pair63,Does Left L2 Radiculopathy cause Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair63,Does Lower abdominal pain cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair64,Does Right C6 Radiculopathy cause Right Thumbs up? Please answer in a single word: Yes or No.,Yes
+pair64,Does Right Thumbs up cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair65,Does Left T1 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair65,Does Breast Backache cause Left T1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair66,Does Left L5 Radiculopathy cause Left Front knee pain? Please answer in a single word: Yes or No.,Yes
+pair66,Does Left Front knee pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair67,Does Right C3 Radiculopathy cause Right Collarbone pain? Please answer in a single word: Yes or No.,Yes
+pair67,Does Right Collarbone pain cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair68,Does Right T7 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair68,Does Toracal dysfunction cause Right T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair69,Does Left T8 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair69,Does Abdominal pain cause Left T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair70,Does Left S1 Radiculopathy cause Left Ham? Please answer in a single word: Yes or No.,Yes
+pair70,Does Left Ham cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair71,Does Left C5 Radiculopathy cause Left Elbow pain? Please answer in a single word: Yes or No.,Yes
+pair71,Does Left Elbow pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair72,Does DLS C6-C7 cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair72,Does Right C7 Radiculopathy cause DLS C6-C7? Please answer in a single word: Yes or No.,No
+pair73,Does Right T3 Radiculopathy cause Right Breast pain? Please answer in a single word: Yes or No.,Yes
+pair73,Does Right Breast pain cause Right T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair74,Does Right C2 Radiculopathy cause Right Eye pain? Please answer in a single word: Yes or No.,Yes
+pair74,Does Right Eye pain cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair75,Does Right C6 Radiculopathy cause Right Elbow trouble? Please answer in a single word: Yes or No.,Yes
+pair75,Does Right Elbow trouble cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair76,Does Left L2 Radiculopathy cause Left Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair76,Does Left Lower abdominal pain cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair77,Does Right S1 Radiculopathy cause Right Achilles tendency? Please answer in a single word: Yes or No.,Yes
+pair77,Does Right Achilles tendency cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair78,Does Left L3 Radiculopathy cause Left Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair78,Does Left Thigh pain cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair79,Does Left C3 Radiculopathy cause Forehead Headache? Please answer in a single word: Yes or No.,Yes
+pair79,Does Forehead Headache cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair80,Does Left S1 Radiculopathy cause Left Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair80,Does Left Thigh pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair81,Does Left L1 Radiculopathy cause Central groin pains? Please answer in a single word: Yes or No.,Yes
+pair81,Does Central groin pains cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair82,Does Right L5 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair82,Does lumbago cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair83,Does Right L4 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair83,Does Backache cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair84,Does Left T3 Radiculopathy cause Left Breast pain? Please answer in a single word: Yes or No.,Yes
+pair84,Does Left Breast pain cause Left T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair85,Does Left T9 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair85,Does Breast Backache cause Left T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair86,Does Left T12 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair86,Does Lateral abdominal pain cause Left T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair87,Does Right L5 Radiculopathy cause Right arch? Please answer in a single word: Yes or No.,Yes
+pair87,Does Right arch cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair88,Does Left C3 Radiculopathy cause Left Neck pain? Please answer in a single word: Yes or No.,Yes
+pair88,Does Left Neck pain cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair89,Does Left C2 Radiculopathy cause mouth? Please answer in a single word: Yes or No.,Yes
+pair89,Does mouth cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair90,Does Left C2 Radiculopathy cause Forehead Headache? Please answer in a single word: Yes or No.,Yes
+pair90,Does Forehead Headache cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair91,Does Right L5 Radiculopathy cause Right Leg pain? Please answer in a single word: Yes or No.,Yes
+pair91,Does Right Leg pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair92,Does Right L4 Radiculopathy cause Right Front thigh pain? Please answer in a single word: Yes or No.,Yes
+pair92,Does Right Front thigh pain cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair93,Does DLS T5-T6 cause Left T6 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair93,Does Left T6 Radiculopathy cause DLS T5-T6? Please answer in a single word: Yes or No.,No
+pair94,Does Left S1 Radiculopathy cause Left Lateral knee pain? Please answer in a single word: Yes or No.,Yes
+pair94,Does Left Lateral knee pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair95,Does Right L1 Radiculopathy cause Right adductor tendonitis ? Please answer in a single word: Yes or No.,Yes
+pair95,Does Right adductor tendonitis  cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair96,Does DLS S1-S2 cause Left S2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair96,Does Left S2 Radiculopathy cause DLS S1-S2? Please answer in a single word: Yes or No.,No
+pair97,Does Right L2 Radiculopathy cause Right Groin trouble? Please answer in a single word: Yes or No.,Yes
+pair97,Does Right Groin trouble cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair98,Does Right C8 Radiculopathy cause Right Elbow trouble? Please answer in a single word: Yes or No.,Yes
+pair98,Does Right Elbow trouble cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair99,Does Right C2 Radiculopathy cause pharyngeal pain? Please answer in a single word: Yes or No.,Yes
+pair99,Does pharyngeal pain cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair100,Does DLS T8-T9 cause Right T9 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair100,Does Right T9 Radiculopathy cause DLS T8-T9? Please answer in a single word: Yes or No.,No
+pair101,Does Left C5 Radiculopathy cause Left Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair101,Does Left Shoulder trouble cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair102,Does Left S1 Radiculopathy cause Left toe pain? Please answer in a single word: Yes or No.,Yes
+pair102,Does Left toe pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair103,Does Right T11 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair103,Does IBS cause Right T11 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair104,Does Left L4 Radiculopathy cause Left Backache? Please answer in a single word: Yes or No.,Yes
+pair104,Does Left Backache cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair105,Does Left T4 Radiculopathy cause chest pain? Please answer in a single word: Yes or No.,Yes
+pair105,Does chest pain cause Left T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair106,Does Left T7 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair106,Does Toracal dysfunction cause Left T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair107,Does Right L4 Radiculopathy cause Right Medial vadbesvär? Please answer in a single word: Yes or No.,Yes
+pair107,Does Right Medial vadbesvär cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair108,Does Right C6 Radiculopathy cause Right bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair108,Does Right bend of arm pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair109,Does Right T4 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair109,Does Toracal dysfunction cause Right T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair110,Does DLS C1-C2 cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair110,Does Left C2 Radiculopathy cause DLS C1-C2? Please answer in a single word: Yes or No.,No
+pair111,Does Right C4 Radiculopathy cause Right shoulder impingement? Please answer in a single word: Yes or No.,Yes
+pair111,Does Right shoulder impingement cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair112,Does Left L5 Radiculopathy cause Left Ham? Please answer in a single word: Yes or No.,Yes
+pair112,Does Left Ham cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair113,Does Right C7 Radiculopathy cause Right Elbow trouble? Please answer in a single word: Yes or No.,Yes
+pair113,Does Right Elbow trouble cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair114,Does Left T8 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair114,Does Lateral abdominal pain cause Left T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair115,Does Right C3 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair115,Does neck pain cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair116,Does Right L3 Radiculopathy cause Right Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair116,Does Right Thigh pain cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair117,Does Left L4 Radiculopathy cause Left Front thigh pain? Please answer in a single word: Yes or No.,Yes
+pair117,Does Left Front thigh pain cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair118,Does Left T8 Radiculopathy cause Upper abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair118,Does Upper abdominal pain cause Left T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair119,Does Right L4 Radiculopathy cause Right Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair119,Does Right Thigh pain cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair120,Does Right S1 Radiculopathy cause Right Dorsal knee joint pain? Please answer in a single word: Yes or No.,Yes
+pair120,Does Right Dorsal knee joint pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair121,Does Right L1 Radiculopathy cause Right Groin trouble? Please answer in a single word: Yes or No.,Yes
+pair121,Does Right Groin trouble cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair122,Does Left C3 Radiculopathy cause Left Central chest pains? Please answer in a single word: Yes or No.,Yes
+pair122,Does Left Central chest pains cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair123,Does Left L1 Radiculopathy cause Left groin trouble? Please answer in a single word: Yes or No.,Yes
+pair123,Does Left groin trouble cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair124,Does Right T10 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair124,Does Breast Backache cause Right T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair125,Does Right T12 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair125,Does IBS cause Right T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair126,Does Right C2 Radiculopathy cause Right neck? Please answer in a single word: Yes or No.,Yes
+pair126,Does Right neck cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair127,Does DLS T11-T12 cause Left T12 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair127,Does Left T12 Radiculopathy cause DLS T11-T12? Please answer in a single word: Yes or No.,No
+pair128,Does Left T9 Radiculopathy cause Left Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair128,Does Left Lower abdominal pain cause Left T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair129,Does Right C3 Radiculopathy cause back headache? Please answer in a single word: Yes or No.,Yes
+pair129,Does back headache cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair130,Does Right L2 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair130,Does lumbago cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair131,Does Right T8 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair131,Does Abdominal pain cause Right T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair132,Does Right C7 Radiculopathy cause Right Finger trouble? Please answer in a single word: Yes or No.,Yes
+pair132,Does Right Finger trouble cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair133,Does Left C6 Radiculopathy cause Left Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair133,Does Left Shoulder pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair134,Does Left L5 Radiculopathy cause Left big toe pain? Please answer in a single word: Yes or No.,Yes
+pair134,Does Left big toe pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair135,Does Right T7 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair135,Does Breast Backache cause Right T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair136,Does Left C7 Radiculopathy cause Left Wrist pain? Please answer in a single word: Yes or No.,Yes
+pair136,Does Left Wrist pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair137,Does Right S1 Radiculopathy cause Right Foot pain? Please answer in a single word: Yes or No.,Yes
+pair137,Does Right Foot pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair138,Does Left C2 Radiculopathy cause Headache? Please answer in a single word: Yes or No.,Yes
+pair138,Does Headache cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair139,Does Left C3 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair139,Does neck pain cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair140,Does Right C6 Radiculopathy cause Right Lateral elbow pain? Please answer in a single word: Yes or No.,Yes
+pair140,Does Right Lateral elbow pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair141,Does Left S1 Radiculopathy cause Left Heel  pain? Please answer in a single word: Yes or No.,Yes
+pair141,Does Left Heel  pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair142,Does Right C6 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair142,Does neck pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair143,Does Left S1 Radiculopathy cause Left Leg pain? Please answer in a single word: Yes or No.,Yes
+pair143,Does Left Leg pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair144,Does Left C3 Radiculopathy cause Central chest pain? Please answer in a single word: Yes or No.,Yes
+pair144,Does Central chest pain cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair145,Does Left L1 Radiculopathy cause Left Medial groin pains? Please answer in a single word: Yes or No.,Yes
+pair145,Does Left Medial groin pains cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair146,Does Right S1 Radiculopathy cause Right Lumbago? Please answer in a single word: Yes or No.,Yes
+pair146,Does Right Lumbago cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair147,Does Right L5 Radiculopathy cause Right Fainting? Please answer in a single word: Yes or No.,Yes
+pair147,Does Right Fainting cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair148,Does Left L4 Radiculopathy cause Left PTA? Please answer in a single word: Yes or No.,Yes
+pair148,Does Left PTA cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair149,Does Left T12 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair149,Does IBS cause Left T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair150,Does Right L2 Radiculopathy cause Right Lumbago? Please answer in a single word: Yes or No.,Yes
+pair150,Does Right Lumbago cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair151,Does Left L4 Radiculopathy cause Left Llower leg pain? Please answer in a single word: Yes or No.,Yes
+pair151,Does Left Llower leg pain cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair152,Does Left C3 Radiculopathy cause Left forehead Headache? Please answer in a single word: Yes or No.,Yes
+pair152,Does Left forehead Headache cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair153,Does Right C5 Radiculopathy cause Intracapular pain? Please answer in a single word: Yes or No.,Yes
+pair153,Does Intracapular pain cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair154,Does Left L2 Radiculopathy cause Left Lateral groin pain? Please answer in a single word: Yes or No.,Yes
+pair154,Does Left Lateral groin pain cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair155,Does Left L5 Radiculopathy cause Left toe pain? Please answer in a single word: Yes or No.,Yes
+pair155,Does Left toe pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair156,Does DLS C7-C8 cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair156,Does Left C8 Radiculopathy cause DLS C7-C8? Please answer in a single word: Yes or No.,No
+pair157,Does Right C4 Radiculopathy cause Right Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair157,Does Right Shoulder pain cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair158,Does Left L3 Radiculopathy cause Left Front thigh pain? Please answer in a single word: Yes or No.,Yes
+pair158,Does Left Front thigh pain cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair159,Does Right C8 Radiculopathy cause Right Little finger trouble? Please answer in a single word: Yes or No.,Yes
+pair159,Does Right Little finger trouble cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair160,Does DLS T1-T2 cause Left T2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair160,Does Left T2 Radiculopathy cause DLS T1-T2? Please answer in a single word: Yes or No.,No
+pair161,Does Right C7 Radiculopathy cause Right Medial elbow pain? Please answer in a single word: Yes or No.,Yes
+pair161,Does Right Medial elbow pain cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair162,Does Right L5 Radiculopathy cause Right Hip trouble? Please answer in a single word: Yes or No.,Yes
+pair162,Does Right Hip trouble cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair163,Does Right S1 Radiculopathy cause Right Knee trouble? Please answer in a single word: Yes or No.,Yes
+pair163,Does Right Knee trouble cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair164,Does Right L4 Radiculopathy cause Right Medial knee joint pain? Please answer in a single word: Yes or No.,Yes
+pair164,Does Right Medial knee joint pain cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair165,Does Right C7 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair165,Does neck pain cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair166,Does Left L5 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair166,Does lumbago cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair167,Does Right C5 Radiculopathy cause Right Elbow trouble? Please answer in a single word: Yes or No.,Yes
+pair167,Does Right Elbow trouble cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair168,Does Right T6 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair168,Does Breast Backache cause Right T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair169,Does Right T1 Radiculopathy cause Right bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair169,Does Right bend of arm pain cause Right T1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair170,Does Left C2 Radiculopathy cause Left Neck pain? Please answer in a single word: Yes or No.,Yes
+pair170,Does Left Neck pain cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair171,Does Left C2 Radiculopathy cause Left forehead Headache? Please answer in a single word: Yes or No.,Yes
+pair171,Does Left forehead Headache cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair172,Does Left C5 Radiculopathy cause Left Neck pain? Please answer in a single word: Yes or No.,Yes
+pair172,Does Left Neck pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair173,Does Left C2 Radiculopathy cause Left Jaw pain? Please answer in a single word: Yes or No.,Yes
+pair173,Does Left Jaw pain cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair174,Does DLS L4-L5 cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair174,Does Right L5 Radiculopathy cause DLS L4-L5? Please answer in a single word: Yes or No.,No
+pair175,Does Left T9 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair175,Does Abdominal pain cause Left T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair176,Does Left S1 Radiculopathy cause Left Obesity? Please answer in a single word: Yes or No.,Yes
+pair176,Does Left Obesity cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair177,Does Right C3 Radiculopathy cause Central chest pain? Please answer in a single word: Yes or No.,Yes
+pair177,Does Central chest pain cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair178,Does Left C4 Radiculopathy cause Left Central chest pains? Please answer in a single word: Yes or No.,Yes
+pair178,Does Left Central chest pains cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair179,Does DLS L2-L3 cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair179,Does Right L3 Radiculopathy cause DLS L2-L3? Please answer in a single word: Yes or No.,No
+pair180,Does Right T10 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair180,Does IBS cause Right T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair181,Does DLS C2-C3 cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair181,Does Left C3 Radiculopathy cause DLS C2-C3? Please answer in a single word: Yes or No.,No
+pair182,Does Right S1 Radiculopathy cause Right heel pain? Please answer in a single word: Yes or No.,Yes
+pair182,Does Right heel pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair183,Does Left C3 Radiculopathy cause back headache? Please answer in a single word: Yes or No.,Yes
+pair183,Does back headache cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair184,Does Right C5 Radiculopathy cause Right Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair184,Does Right Shoulder pain cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair185,Does Left T1 Radiculopathy cause Left Arm? Please answer in a single word: Yes or No.,Yes
+pair185,Does Left Arm cause Left T1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair186,Does DLS T6-T7 cause Left T7 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair186,Does Left T7 Radiculopathy cause DLS T6-T7? Please answer in a single word: Yes or No.,No
+pair187,Does Left C5 Radiculopathy cause Intracapular pain? Please answer in a single word: Yes or No.,Yes
+pair187,Does Intracapular pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair188,Does Left C7 Radiculopathy cause Left Neck pain? Please answer in a single word: Yes or No.,Yes
+pair188,Does Left Neck pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair189,Does Left C6 Radiculopathy cause Left Thumbs up? Please answer in a single word: Yes or No.,Yes
+pair189,Does Left Thumbs up cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair190,Does Left T10 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair190,Does Abdominal pain cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair191,Does Left T6 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair191,Does Toracal dysfunction cause Left T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair192,Does DLS C1-C2 cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair192,Does Right C2 Radiculopathy cause DLS C1-C2? Please answer in a single word: Yes or No.,No
+pair193,Does Left C8 Radiculopathy cause Left bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair193,Does Left bend of arm pain cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair194,Does DLS L3-L4 cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair194,Does Left L4 Radiculopathy cause DLS L3-L4? Please answer in a single word: Yes or No.,No
+pair195,Does Left L2 Radiculopathy cause Left Backache? Please answer in a single word: Yes or No.,Yes
+pair195,Does Left Backache cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair196,Does DLS L3-L4 cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair196,Does Right L4 Radiculopathy cause DLS L3-L4? Please answer in a single word: Yes or No.,No
+pair197,Does Right C4 Radiculopathy cause Right Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair197,Does Right Shoulder trouble cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair198,Does Left L1 Radiculopathy cause Left Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair198,Does Left Lower abdominal pain cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair199,Does Right C2 Radiculopathy cause Headache? Please answer in a single word: Yes or No.,Yes
+pair199,Does Headache cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair200,Does Right T6 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair200,Does Abdominal pain cause Right T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair201,Does Left T11 Radiculopathy cause Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair201,Does Lower abdominal pain cause Left T11 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair202,Does Right T9 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair202,Does Abdominal pain cause Right T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair203,Does Left C5 Radiculopathy cause Left Lateral arm pain? Please answer in a single word: Yes or No.,Yes
+pair203,Does Left Lateral arm pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair204,Does Right T5 Radiculopathy cause chest pain? Please answer in a single word: Yes or No.,Yes
+pair204,Does chest pain cause Right T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair205,Does Right L3 Radiculopathy cause Right Front thigh pain? Please answer in a single word: Yes or No.,Yes
+pair205,Does Right Front thigh pain cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair206,Does Right S1 Radiculopathy cause Calcaneal pain? Please answer in a single word: Yes or No.,Yes
+pair206,Does Calcaneal pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair207,Does Right C2 Radiculopathy cause Right Ear pain? Please answer in a single word: Yes or No.,Yes
+pair207,Does Right Ear pain cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair208,Does Right C8 Radiculopathy cause Right Hand pain? Please answer in a single word: Yes or No.,Yes
+pair208,Does Right Hand pain cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair209,Does Left T6 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair209,Does Breast Backache cause Left T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair210,Does Right L5 Radiculopathy cause Right Tear pain? Please answer in a single word: Yes or No.,Yes
+pair210,Does Right Tear pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair211,Does Left T8 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair211,Does Breast Backache cause Left T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair212,Does Left C8 Radiculopathy cause Left Small finger trouble? Please answer in a single word: Yes or No.,Yes
+pair212,Does Left Small finger trouble cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair213,Does Left L5 Radiculopathy cause Left Lumbago? Please answer in a single word: Yes or No.,Yes
+pair213,Does Left Lumbago cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair214,Does Right S1 Radiculopathy cause Right Tear pain? Please answer in a single word: Yes or No.,Yes
+pair214,Does Right Tear pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair215,Does Left C5 Radiculopathy cause Left Lateral elbow pain? Please answer in a single word: Yes or No.,Yes
+pair215,Does Left Lateral elbow pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair216,Does DLS L1-L2 cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair216,Does Right L2 Radiculopathy cause DLS L1-L2? Please answer in a single word: Yes or No.,No
+pair217,Does Right L5 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair217,Does Backache cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair218,Does Left C4 Radiculopathy cause Left Central chest pain? Please answer in a single word: Yes or No.,Yes
+pair218,Does Left Central chest pain cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair219,Does DLS T9-T10 cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair219,Does Left T10 Radiculopathy cause DLS T9-T10? Please answer in a single word: Yes or No.,No
+pair220,Does Left C8 Radiculopathy cause Left Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair220,Does Left Shoulder pain cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair221,Does Left C4 Radiculopathy cause Left Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair221,Does Left Shoulder trouble cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair222,Does Left L3 Radiculopathy cause Left Lumbago? Please answer in a single word: Yes or No.,Yes
+pair222,Does Left Lumbago cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair223,Does Left L2 Radiculopathy cause Left Medial groin pains? Please answer in a single word: Yes or No.,Yes
+pair223,Does Left Medial groin pains cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair224,Does Left C6 Radiculopathy cause Left Interscapular complaints? Please answer in a single word: Yes or No.,Yes
+pair224,Does Left Interscapular complaints cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair225,Does DLS L5-S1 cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair225,Does Left S1 Radiculopathy cause DLS L5-S1? Please answer in a single word: Yes or No.,No
+pair226,Does Right C6 Radiculopathy cause Right lower arm pains? Please answer in a single word: Yes or No.,Yes
+pair226,Does Right lower arm pains cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair227,Does Left L5 Radiculopathy cause Left PTA? Please answer in a single word: Yes or No.,Yes
+pair227,Does Left PTA cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair228,Does Left C8 Radiculopathy cause Left lower arm pains? Please answer in a single word: Yes or No.,Yes
+pair228,Does Left lower arm pains cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair229,Does Left L5 Radiculopathy cause Left Llower leg pain? Please answer in a single word: Yes or No.,Yes
+pair229,Does Left Llower leg pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair230,Does Left C8 Radiculopathy cause Left Finger trouble? Please answer in a single word: Yes or No.,Yes
+pair230,Does Left Finger trouble cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair231,Does Right L5 Radiculopathy cause Right Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair231,Does Right Thigh pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair232,Does Left C7 Radiculopathy cause Left Hand pain? Please answer in a single word: Yes or No.,Yes
+pair232,Does Left Hand pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair233,Does DLS T4-T5 cause Right T5 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair233,Does Right T5 Radiculopathy cause DLS T4-T5? Please answer in a single word: Yes or No.,No
+pair234,Does Left S1 Radiculopathy cause Coccydyni? Please answer in a single word: Yes or No.,Yes
+pair234,Does Coccydyni cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair235,Does Left T10 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair235,Does Lateral abdominal pain cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair236,Does Right C4 Radiculopathy cause Central chest pain? Please answer in a single word: Yes or No.,Yes
+pair236,Does Central chest pain cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair237,Does DLS T5-T6 cause Right T6 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair237,Does Right T6 Radiculopathy cause DLS T5-T6? Please answer in a single word: Yes or No.,No
+pair238,Does Left T11 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair238,Does Lateral abdominal pain cause Left T11 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair239,Does Right C3 Radiculopathy cause Right Back headache pain? Please answer in a single word: Yes or No.,Yes
+pair239,Does Right Back headache pain cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair240,Does Right L4 Radiculopathy cause Right Leg pain? Please answer in a single word: Yes or No.,Yes
+pair240,Does Right Leg pain cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair241,Does Left C7 Radiculopathy cause Left Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair241,Does Left Shoulder trouble cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair242,Does Left C5 Radiculopathy cause Left Arm? Please answer in a single word: Yes or No.,Yes
+pair242,Does Left Arm cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair243,Does Right T1 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair243,Does Breast Backache cause Right T1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair244,Does Left L5 Radiculopathy cause Left Knee trouble? Please answer in a single word: Yes or No.,Yes
+pair244,Does Left Knee trouble cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair245,Does DLS T7-T8 cause Right T8 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair245,Does Right T8 Radiculopathy cause DLS T7-T8? Please answer in a single word: Yes or No.,No
+pair246,Does DLS L1-L2 cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair246,Does Left L2 Radiculopathy cause DLS L1-L2? Please answer in a single word: Yes or No.,No
+pair247,Does Left T10 Radiculopathy cause Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair247,Does Lower abdominal pain cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair248,Does Right L5 Radiculopathy cause Right big toe pain? Please answer in a single word: Yes or No.,Yes
+pair248,Does Right big toe pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair249,Does Left L2 Radiculopathy cause Central groin pains? Please answer in a single word: Yes or No.,Yes
+pair249,Does Central groin pains cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair250,Does Right C3 Radiculopathy cause Forehead Headache? Please answer in a single word: Yes or No.,Yes
+pair250,Does Forehead Headache cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair251,Does Left C3 Radiculopathy cause mouth? Please answer in a single word: Yes or No.,Yes
+pair251,Does mouth cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair252,Does Left L5 Radiculopathy cause Left Backache? Please answer in a single word: Yes or No.,Yes
+pair252,Does Left Backache cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair253,Does Left L1 Radiculopathy cause Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair253,Does Lower abdominal pain cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair254,Does Right S1 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair254,Does Backache cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair255,Does Left T11 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair255,Does Abdominal pain cause Left T11 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair256,Does Right T6 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair256,Does Toracal dysfunction cause Right T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair257,Does Right S1 Radiculopathy cause Right Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair257,Does Right Thigh pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair258,Does Right L2 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair258,Does Backache cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair259,Does Right T1 Radiculopathy cause Right Armband? Please answer in a single word: Yes or No.,Yes
+pair259,Does Right Armband cause Right T1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair260,Does Left T7 Radiculopathy cause Upper abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair260,Does Upper abdominal pain cause Left T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair261,Does Left C8 Radiculopathy cause Left Medial elbow pain? Please answer in a single word: Yes or No.,Yes
+pair261,Does Left Medial elbow pain cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair262,Does Left S1 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair262,Does lumbago cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair263,Does Right C3 Radiculopathy cause pharyngeal pain? Please answer in a single word: Yes or No.,Yes
+pair263,Does pharyngeal pain cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair264,Does Left L4 Radiculopathy cause Left Medial knee joint pain? Please answer in a single word: Yes or No.,Yes
+pair264,Does Left Medial knee joint pain cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair265,Does Right C4 Radiculopathy cause Right Collarbone pain? Please answer in a single word: Yes or No.,Yes
+pair265,Does Right Collarbone pain cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair266,Does Right L1 Radiculopathy cause Central groin pains? Please answer in a single word: Yes or No.,Yes
+pair266,Does Central groin pains cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair267,Does Left L3 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair267,Does Backache cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair268,Does Left L1 Radiculopathy cause Left Lateral groin pain? Please answer in a single word: Yes or No.,Yes
+pair268,Does Left Lateral groin pain cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair269,Does Right S1 Radiculopathy cause Right Lateral Foot pains? Please answer in a single word: Yes or No.,Yes
+pair269,Does Right Lateral Foot pains cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair270,Does Left T6 Radiculopathy cause Upper abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair270,Does Upper abdominal pain cause Left T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair271,Does Left S1 Radiculopathy cause Left Lateral Foot pains? Please answer in a single word: Yes or No.,Yes
+pair271,Does Left Lateral Foot pains cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair272,Does Right C6 Radiculopathy cause Right Wrist pain? Please answer in a single word: Yes or No.,Yes
+pair272,Does Right Wrist pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair273,Does Right L4 Radiculopathy cause Right Knee trouble? Please answer in a single word: Yes or No.,Yes
+pair273,Does Right Knee trouble cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair274,Does Left T7 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair274,Does Lateral abdominal pain cause Left T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair275,Does Right C2 Radiculopathy cause mouth? Please answer in a single word: Yes or No.,Yes
+pair275,Does mouth cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair276,Does Left L1 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair276,Does Abdominal pain cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair277,Does Left C6 Radiculopathy cause Left Neck pain? Please answer in a single word: Yes or No.,Yes
+pair277,Does Left Neck pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair278,Does Left L4 Radiculopathy cause Left Leg pain? Please answer in a single word: Yes or No.,Yes
+pair278,Does Left Leg pain cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair279,Does Left T4 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair279,Does Breast Backache cause Left T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair280,Does Left C6 Radiculopathy cause Left Arm? Please answer in a single word: Yes or No.,Yes
+pair280,Does Left Arm cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair281,Does Left C8 Radiculopathy cause Left Arm? Please answer in a single word: Yes or No.,Yes
+pair281,Does Left Arm cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair282,Does DLS T10-T11 cause Left T11 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair282,Does Left T11 Radiculopathy cause DLS T10-T11? Please answer in a single word: Yes or No.,No
+pair283,Does Left S1 Radiculopathy cause Left Adductor tendon? Please answer in a single word: Yes or No.,Yes
+pair283,Does Left Adductor tendon cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair284,Does Left L4 Radiculopathy cause Left Knee trouble? Please answer in a single word: Yes or No.,Yes
+pair284,Does Left Knee trouble cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair285,Does Right L4 Radiculopathy cause Right PTA? Please answer in a single word: Yes or No.,Yes
+pair285,Does Right PTA cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair286,Does Right S1 Radiculopathy cause Right Achillodyni? Please answer in a single word: Yes or No.,Yes
+pair286,Does Right Achillodyni cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair287,Does Right L2 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair287,Does IBS cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair288,Does Right C6 Radiculopathy cause Right Intracapular trouble? Please answer in a single word: Yes or No.,Yes
+pair288,Does Right Intracapular trouble cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair289,Does Right T8 Radiculopathy cause Upper abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair289,Does Upper abdominal pain cause Right T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair290,Does Right T6 Radiculopathy cause Upper abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair290,Does Upper abdominal pain cause Right T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair291,Does Right S1 Radiculopathy cause Right Rear thigh pain? Please answer in a single word: Yes or No.,Yes
+pair291,Does Right Rear thigh pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair292,Does Left C5 Radiculopathy cause Left Interscapular complaints? Please answer in a single word: Yes or No.,Yes
+pair292,Does Left Interscapular complaints cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair293,Does Right L5 Radiculopathy cause Right Front knee pain? Please answer in a single word: Yes or No.,Yes
+pair293,Does Right Front knee pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair294,Does Right T3 Radiculopathy cause chest pain? Please answer in a single word: Yes or No.,Yes
+pair294,Does chest pain cause Right T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair295,Does Right L4 Radiculopathy cause Right shin? Please answer in a single word: Yes or No.,Yes
+pair295,Does Right shin cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair296,Does Left C2 Radiculopathy cause pharyngeal pain? Please answer in a single word: Yes or No.,Yes
+pair296,Does pharyngeal pain cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair297,Does Left S1 Radiculopathy cause Left Small toe trouble? Please answer in a single word: Yes or No.,Yes
+pair297,Does Left Small toe trouble cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair298,Does Right S2 Radiculopathy cause Right Ischias? Please answer in a single word: Yes or No.,Yes
+pair298,Does Right Ischias cause Right S2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair299,Does Right L2 Radiculopathy cause Central groin pains? Please answer in a single word: Yes or No.,Yes
+pair299,Does Central groin pains cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair300,Does Left C6 Radiculopathy cause Left Wrist pain? Please answer in a single word: Yes or No.,Yes
+pair300,Does Left Wrist pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair301,Does Left T4 Radiculopathy cause Left Breast pain? Please answer in a single word: Yes or No.,Yes
+pair301,Does Left Breast pain cause Left T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair302,Does Right L3 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair302,Does Backache cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair303,Does Left S1 Radiculopathy cause Left Backache? Please answer in a single word: Yes or No.,Yes
+pair303,Does Left Backache cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair304,Does Left T5 Radiculopathy cause chest pain? Please answer in a single word: Yes or No.,Yes
+pair304,Does chest pain cause Left T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair305,Does Left C3 Radiculopathy cause Left collarbone pain? Please answer in a single word: Yes or No.,Yes
+pair305,Does Left collarbone pain cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair306,Does Left L5 Radiculopathy cause Left Foot pain? Please answer in a single word: Yes or No.,Yes
+pair306,Does Left Foot pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair307,Does Left C4 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair307,Does neck pain cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair308,Does DLS C5-C6 cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair308,Does Left C6 Radiculopathy cause DLS C5-C6? Please answer in a single word: Yes or No.,No
+pair309,Does Right C8 Radiculopathy cause Right lower arm pains? Please answer in a single word: Yes or No.,Yes
+pair309,Does Right lower arm pains cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair310,Does Right C8 Radiculopathy cause Right Armband? Please answer in a single word: Yes or No.,Yes
+pair310,Does Right Armband cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair311,Does Right L1 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair311,Does IBS cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair312,Does Right T5 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair312,Does Breast Backache cause Right T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair313,Does Left C6 Radiculopathy cause Left Hand pain? Please answer in a single word: Yes or No.,Yes
+pair313,Does Left Hand pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair314,Does DLS T4-T5 cause Left T5 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair314,Does Left T5 Radiculopathy cause DLS T4-T5? Please answer in a single word: Yes or No.,No
+pair315,Does Right C2 Radiculopathy cause Right Tinnitus? Please answer in a single word: Yes or No.,Yes
+pair315,Does Right Tinnitus cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair316,Does Right T4 Radiculopathy cause Right Breast pain? Please answer in a single word: Yes or No.,Yes
+pair316,Does Right Breast pain cause Right T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair317,Does Left C7 Radiculopathy cause Left Arm? Please answer in a single word: Yes or No.,Yes
+pair317,Does Left Arm cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair318,Does DLS T6-T7 cause Right T7 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair318,Does Right T7 Radiculopathy cause DLS T6-T7? Please answer in a single word: Yes or No.,No
+pair319,Does Left L2 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair319,Does Lateral abdominal pain cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair320,Does Left S1 Radiculopathy cause Left Achilles tendon? Please answer in a single word: Yes or No.,Yes
+pair320,Does Left Achilles tendon cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair321,Does Left L5 Radiculopathy cause Left Ankle trouble? Please answer in a single word: Yes or No.,Yes
+pair321,Does Left Ankle trouble cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair322,Does Left L2 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair322,Does Backache cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair323,Does DLS T12-L1 cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair323,Does Right L1 Radiculopathy cause DLS T12-L1? Please answer in a single word: Yes or No.,No
+pair324,Does Left T5 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair324,Does Toracal dysfunction cause Left T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair325,Does Left C7 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair325,Does neck pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair326,Does Left L2 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair326,Does Abdominal pain cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair327,Does Right C5 Radiculopathy cause Right Lateral elbow pain? Please answer in a single word: Yes or No.,Yes
+pair327,Does Right Lateral elbow pain cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair328,Does Left C4 Radiculopathy cause Left shoulder impingement? Please answer in a single word: Yes or No.,Yes
+pair328,Does Left shoulder impingement cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair329,Does Left C7 Radiculopathy cause Left bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair329,Does Left bend of arm pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair330,Does Left T10 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair330,Does Breast Backache cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair331,Does Right L5 Radiculopathy cause Right Obesity? Please answer in a single word: Yes or No.,Yes
+pair331,Does Right Obesity cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair332,Does Right S1 Radiculopathy cause Right adductor tendonitis ? Please answer in a single word: Yes or No.,Yes
+pair332,Does Right adductor tendonitis  cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair333,Does DLS L4-L5 cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair333,Does Left L5 Radiculopathy cause DLS L4-L5? Please answer in a single word: Yes or No.,No
+pair334,Does DLS T1-T2 cause Right T2 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair334,Does Right T2 Radiculopathy cause DLS T1-T2? Please answer in a single word: Yes or No.,No
+pair335,Does Right L5 Radiculopathy cause Right Lumbago? Please answer in a single word: Yes or No.,Yes
+pair335,Does Right Lumbago cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair336,Does Right C3 Radiculopathy cause Right neck? Please answer in a single word: Yes or No.,Yes
+pair336,Does Right neck cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair337,Does Right T5 Radiculopathy cause Right Breast pain? Please answer in a single word: Yes or No.,Yes
+pair337,Does Right Breast pain cause Right T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair338,Does Left C5 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair338,Does neck pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair339,Does Right C6 Radiculopathy cause Right Front Axle pain? Please answer in a single word: Yes or No.,Yes
+pair339,Does Right Front Axle pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair340,Does Right C7 Radiculopathy cause Right Hand pain? Please answer in a single word: Yes or No.,Yes
+pair340,Does Right Hand pain cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair341,Does Left L1 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair341,Does IBS cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair342,Does Left T3 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair342,Does Breast Backache cause Left T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair343,Does Right S1 Radiculopathy cause Right Ischias? Please answer in a single word: Yes or No.,Yes
+pair343,Does Right Ischias cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair344,Does Right T8 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair344,Does Breast Backache cause Right T8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair345,Does Left T7 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair345,Does Abdominal pain cause Left T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair346,Does DLS C8-T1 cause Right T1 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair346,Does Right T1 Radiculopathy cause DLS C8-T1? Please answer in a single word: Yes or No.,No
+pair347,Does DLS C4-C5 cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair347,Does Left C5 Radiculopathy cause DLS C4-C5? Please answer in a single word: Yes or No.,No
+pair348,Does Right L5 Radiculopathy cause Right Medial knee joint pain? Please answer in a single word: Yes or No.,Yes
+pair348,Does Right Medial knee joint pain cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair349,Does Left C8 Radiculopathy cause Left Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair349,Does Left Shoulder trouble cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair350,Does Right C8 Radiculopathy cause Right Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair350,Does Right Shoulder trouble cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair351,Does Right T3 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair351,Does Toracal dysfunction cause Right T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair352,Does Left L2 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair352,Does IBS cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair353,Does Left S1 Radiculopathy cause Left Lumbago? Please answer in a single word: Yes or No.,Yes
+pair353,Does Left Lumbago cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair354,Does Left L4 Radiculopathy cause Left shin? Please answer in a single word: Yes or No.,Yes
+pair354,Does Left shin cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair355,Does Right L5 Radiculopathy cause Right Ham? Please answer in a single word: Yes or No.,Yes
+pair355,Does Right Ham cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair356,Does Right C5 Radiculopathy cause Right neck? Please answer in a single word: Yes or No.,Yes
+pair356,Does Right neck cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair357,Does Right C7 Radiculopathy cause Right neck? Please answer in a single word: Yes or No.,Yes
+pair357,Does Right neck cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair358,Does Right C5 Radiculopathy cause Right shoulder impingement? Please answer in a single word: Yes or No.,Yes
+pair358,Does Right shoulder impingement cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair359,Does Right L4 Radiculopathy cause Right Hip arthritis? Please answer in a single word: Yes or No.,Yes
+pair359,Does Right Hip arthritis cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair360,Does Left C3 Radiculopathy cause Left Central chest pain? Please answer in a single word: Yes or No.,Yes
+pair360,Does Left Central chest pain cause Left C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair361,Does Right C5 Radiculopathy cause Right Intracapular trouble? Please answer in a single word: Yes or No.,Yes
+pair361,Does Right Intracapular trouble cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair362,Does DLS C7-C8 cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair362,Does Right C8 Radiculopathy cause DLS C7-C8? Please answer in a single word: Yes or No.,No
+pair363,Does Right C8 Radiculopathy cause Right Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair363,Does Right Shoulder pain cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair364,Does Right C8 Radiculopathy cause Right Finger trouble? Please answer in a single word: Yes or No.,Yes
+pair364,Does Right Finger trouble cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair365,Does Right T3 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair365,Does Breast Backache cause Right T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair366,Does DLS T3-T4 cause Left T4 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair366,Does Left T4 Radiculopathy cause DLS T3-T4? Please answer in a single word: Yes or No.,No
+pair367,Does Left L4 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair367,Does Backache cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair368,Does Right L5 Radiculopathy cause Right PTA? Please answer in a single word: Yes or No.,Yes
+pair368,Does Right PTA cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair369,Does Right T4 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair369,Does Breast Backache cause Right T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair370,Does Right L1 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair370,Does Abdominal pain cause Right L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair371,Does Right S1 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair371,Does lumbago cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair372,Does Left L3 Radiculopathy cause Left Hip pains? Please answer in a single word: Yes or No.,Yes
+pair372,Does Left Hip pains cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair373,Does Right L3 Radiculopathy cause Right Lumbago? Please answer in a single word: Yes or No.,Yes
+pair373,Does Right Lumbago cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair374,Does Right C5 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair374,Does neck pain cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair375,Does Left L5 Radiculopathy cause Left Thigh pain? Please answer in a single word: Yes or No.,Yes
+pair375,Does Left Thigh pain cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair376,Does Right T7 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair376,Does Abdominal pain cause Right T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair377,Does Right L5 Radiculopathy cause Right Morton trouble? Please answer in a single word: Yes or No.,Yes
+pair377,Does Right Morton trouble cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair378,Does Right T4 Radiculopathy cause chest pain? Please answer in a single word: Yes or No.,Yes
+pair378,Does chest pain cause Right T4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair379,Does Left C7 Radiculopathy cause Left lower arm pains? Please answer in a single word: Yes or No.,Yes
+pair379,Does Left lower arm pains cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair380,Does Left C6 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair380,Does neck pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair381,Does Left C7 Radiculopathy cause Left Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair381,Does Left Shoulder pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair382,Does Left L3 Radiculopathy cause Left Leg pain? Please answer in a single word: Yes or No.,Yes
+pair382,Does Left Leg pain cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair383,Does Right C7 Radiculopathy cause Right lower arm pains? Please answer in a single word: Yes or No.,Yes
+pair383,Does Right lower arm pains cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair384,Does Left C2 Radiculopathy cause Left Eye pain? Please answer in a single word: Yes or No.,Yes
+pair384,Does Left Eye pain cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair385,Does Left T6 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair385,Does Lateral abdominal pain cause Left T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair386,Does Left C6 Radiculopathy cause Left shoulder impingement? Please answer in a single word: Yes or No.,Yes
+pair386,Does Left shoulder impingement cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair387,Does Right C4 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair387,Does neck pain cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair388,Does Left T1 Radiculopathy cause Left bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair388,Does Left bend of arm pain cause Left T1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair389,Does Right T7 Radiculopathy cause Upper abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair389,Does Upper abdominal pain cause Right T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair390,Does Right C4 Radiculopathy cause Right neck? Please answer in a single word: Yes or No.,Yes
+pair390,Does Right neck cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair391,Does Left S2 Radiculopathy cause Left Ischias? Please answer in a single word: Yes or No.,Yes
+pair391,Does Left Ischias cause Left S2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair392,Does Right L5 Radiculopathy cause Right shin? Please answer in a single word: Yes or No.,Yes
+pair392,Does Right shin cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair393,Does Right C7 Radiculopathy cause Right bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair393,Does Right bend of arm pain cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair394,Does Left T9 Radiculopathy cause Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair394,Does Lower abdominal pain cause Left T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair395,Does Right T5 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair395,Does Toracal dysfunction cause Right T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair396,Does Left T6 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair396,Does Abdominal pain cause Left T6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair397,Does Left L4 Radiculopathy cause Left Lumbago? Please answer in a single word: Yes or No.,Yes
+pair397,Does Left Lumbago cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair398,Does Right S1 Radiculopathy cause Right Ham? Please answer in a single word: Yes or No.,Yes
+pair398,Does Right Ham cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair399,Does Left C5 Radiculopathy cause Left Upper elbow pain? Please answer in a single word: Yes or No.,Yes
+pair399,Does Left Upper elbow pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair400,Does Left C5 Radiculopathy cause Left Shoulder pain? Please answer in a single word: Yes or No.,Yes
+pair400,Does Left Shoulder pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair401,Does DLS C8-T1 cause Left T1 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair401,Does Left T1 Radiculopathy cause DLS C8-T1? Please answer in a single word: Yes or No.,No
+pair402,Does Left L3 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair402,Does lumbago cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair403,Does Left C2 Radiculopathy cause Left Ear pain? Please answer in a single word: Yes or No.,Yes
+pair403,Does Left Ear pain cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair404,Does Left S1 Radiculopathy cause Left Dorsal knee joint pain? Please answer in a single word: Yes or No.,Yes
+pair404,Does Left Dorsal knee joint pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair405,Does Left L2 Radiculopathy cause Left groin trouble? Please answer in a single word: Yes or No.,Yes
+pair405,Does Left groin trouble cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair406,Does DLS T2-T3 cause Right T3 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair406,Does Right T3 Radiculopathy cause DLS T2-T3? Please answer in a single word: Yes or No.,No
+pair407,Does DLS T9-T10 cause Right T10 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair407,Does Right T10 Radiculopathy cause DLS T9-T10? Please answer in a single word: Yes or No.,No
+pair408,Does Left T11 Radiculopathy cause IBS? Please answer in a single word: Yes or No.,Yes
+pair408,Does IBS cause Left T11 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair409,Does Left C4 Radiculopathy cause Left collarbone pain? Please answer in a single word: Yes or No.,Yes
+pair409,Does Left collarbone pain cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair410,Does Right C4 Radiculopathy cause Right Front Axle pain? Please answer in a single word: Yes or No.,Yes
+pair410,Does Right Front Axle pain cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair411,Does Left C6 Radiculopathy cause Left Elbow pain? Please answer in a single word: Yes or No.,Yes
+pair411,Does Left Elbow pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair412,Does Right C8 Radiculopathy cause Right bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair412,Does Right bend of arm pain cause Right C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair413,Does DLS C3-C4 cause Right C4 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair413,Does Right C4 Radiculopathy cause DLS C3-C4? Please answer in a single word: Yes or No.,No
+pair414,Does Left C6 Radiculopathy cause Left lower arm pains? Please answer in a single word: Yes or No.,Yes
+pair414,Does Left lower arm pains cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair415,Does Right S1 Radiculopathy cause Right Leg pain? Please answer in a single word: Yes or No.,Yes
+pair415,Does Right Leg pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair416,Does Left T3 Radiculopathy cause Toracal dysfunction? Please answer in a single word: Yes or No.,Yes
+pair416,Does Toracal dysfunction cause Left T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair417,Does Left C7 Radiculopathy cause Left Elbow pain? Please answer in a single word: Yes or No.,Yes
+pair417,Does Left Elbow pain cause Left C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair418,Does Right L4 Radiculopathy cause Right Lumbago? Please answer in a single word: Yes or No.,Yes
+pair418,Does Right Lumbago cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair419,Does Left C6 Radiculopathy cause Left Lateral elbow pain? Please answer in a single word: Yes or No.,Yes
+pair419,Does Left Lateral elbow pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair420,Does Right C3 Radiculopathy cause Right Jaw trouble? Please answer in a single word: Yes or No.,Yes
+pair420,Does Right Jaw trouble cause Right C3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair421,Does Left C8 Radiculopathy cause Left Hand pain? Please answer in a single word: Yes or No.,Yes
+pair421,Does Left Hand pain cause Left C8 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair422,Does Right L2 Radiculopathy cause Right adductor tendonitis ? Please answer in a single word: Yes or No.,Yes
+pair422,Does Right adductor tendonitis  cause Right L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair423,Does Right C6 Radiculopathy cause Right Armband? Please answer in a single word: Yes or No.,Yes
+pair423,Does Right Armband cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair424,Does Left C6 Radiculopathy cause Left Lateral arm pain? Please answer in a single word: Yes or No.,Yes
+pair424,Does Left Lateral arm pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair425,Does Right T11 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair425,Does Abdominal pain cause Right T11 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair426,Does DLS T8-T9 cause Left T9 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair426,Does Left T9 Radiculopathy cause DLS T8-T9? Please answer in a single word: Yes or No.,No
+pair427,Does Left L1 Radiculopathy cause Left Adductor tendon? Please answer in a single word: Yes or No.,Yes
+pair427,Does Left Adductor tendon cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair428,Does Right L3 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair428,Does lumbago cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair429,Does Right T12 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair429,Does Abdominal pain cause Right T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair430,Does Right T10 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair430,Does Abdominal pain cause Right T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair431,Does Right L5 Radiculopathy cause Right Ankle trouble? Please answer in a single word: Yes or No.,Yes
+pair431,Does Right Ankle trouble cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair432,Does Left L3 Radiculopathy cause Left Backache? Please answer in a single word: Yes or No.,Yes
+pair432,Does Left Backache cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair433,Does Left C2 Radiculopathy cause neck pain? Please answer in a single word: Yes or No.,Yes
+pair433,Does neck pain cause Left C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair434,Does Right S1 Radiculopathy cause Right Lateral knee pain? Please answer in a single word: Yes or No.,Yes
+pair434,Does Right Lateral knee pain cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair435,Does Left T5 Radiculopathy cause Left Breast pain? Please answer in a single word: Yes or No.,Yes
+pair435,Does Left Breast pain cause Left T5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair436,Does Left S1 Radiculopathy cause Left Llower leg pain? Please answer in a single word: Yes or No.,Yes
+pair436,Does Left Llower leg pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair437,Does Left C5 Radiculopathy cause Left Upper arm pain? Please answer in a single word: Yes or No.,Yes
+pair437,Does Left Upper arm pain cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair438,Does Left S1 Radiculopathy cause Backache? Please answer in a single word: Yes or No.,Yes
+pair438,Does Backache cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair439,Does Right L4 Radiculopathy cause Right Front knee pain? Please answer in a single word: Yes or No.,Yes
+pair439,Does Right Front knee pain cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair440,Does DLS T12-L1 cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair440,Does Left L1 Radiculopathy cause DLS T12-L1? Please answer in a single word: Yes or No.,No
+pair441,Does Right C7 Radiculopathy cause Right Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair441,Does Right Shoulder trouble cause Right C7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair442,Does Right S1 Radiculopathy cause Right Obesity? Please answer in a single word: Yes or No.,Yes
+pair442,Does Right Obesity cause Right S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair443,Does Left L5 Radiculopathy cause Left shin? Please answer in a single word: Yes or No.,Yes
+pair443,Does Left shin cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair444,Does Left L1 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair444,Does Lateral abdominal pain cause Left L1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair445,Does Left T9 Radiculopathy cause Lateral abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair445,Does Lateral abdominal pain cause Left T9 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair446,Does Right L4 Radiculopathy cause Right Hip trouble? Please answer in a single word: Yes or No.,Yes
+pair446,Does Right Hip trouble cause Right L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair447,Does DLS T3-T4 cause Right T4 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair447,Does Right T4 Radiculopathy cause DLS T3-T4? Please answer in a single word: Yes or No.,No
+pair448,Does Left C5 Radiculopathy cause Left shoulder impingement? Please answer in a single word: Yes or No.,Yes
+pair448,Does Left shoulder impingement cause Left C5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair449,Does Right C6 Radiculopathy cause Right Shoulder trouble? Please answer in a single word: Yes or No.,Yes
+pair449,Does Right Shoulder trouble cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair450,Does Right C2 Radiculopathy cause Right Jaw trouble? Please answer in a single word: Yes or No.,Yes
+pair450,Does Right Jaw trouble cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair451,Does Left T10 Radiculopathy cause Left Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair451,Does Left Lower abdominal pain cause Left T10 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair452,Does Left L4 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair452,Does lumbago cause Left L4 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair453,Does Left T2 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair453,Does Breast Backache cause Left T2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair454,Does Left T7 Radiculopathy cause Breast Backache? Please answer in a single word: Yes or No.,Yes
+pair454,Does Breast Backache cause Left T7 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair455,Does DLS C3-C4 cause Left C4 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair455,Does Left C4 Radiculopathy cause DLS C3-C4? Please answer in a single word: Yes or No.,No
+pair456,Does Left S1 Radiculopathy cause Left Knee trouble? Please answer in a single word: Yes or No.,Yes
+pair456,Does Left Knee trouble cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair457,Does Right C2 Radiculopathy cause Forehead Headache? Please answer in a single word: Yes or No.,Yes
+pair457,Does Forehead Headache cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair458,Does Right C2 Radiculopathy cause Right Headache? Please answer in a single word: Yes or No.,Yes
+pair458,Does Right Headache cause Right C2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair459,Does Right L5 Radiculopathy cause Right Hip arthritis? Please answer in a single word: Yes or No.,Yes
+pair459,Does Right Hip arthritis cause Right L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair460,Does Right C6 Radiculopathy cause Right Hand pain? Please answer in a single word: Yes or No.,Yes
+pair460,Does Right Hand pain cause Right C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair461,Does Left C6 Radiculopathy cause Left bend of arm pain? Please answer in a single word: Yes or No.,Yes
+pair461,Does Left bend of arm pain cause Left C6 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair462,Does Left T12 Radiculopathy cause Abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair462,Does Abdominal pain cause Left T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair463,Does Left S2 Radiculopathy cause Left Adductor tendon? Please answer in a single word: Yes or No.,Yes
+pair463,Does Left Adductor tendon cause Left S2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair464,Does Left S1 Radiculopathy cause Calcaneal pain? Please answer in a single word: Yes or No.,Yes
+pair464,Does Calcaneal pain cause Left S1 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair465,Does Left L5 Radiculopathy cause Left Tåledbesvär? Please answer in a single word: Yes or No.,Yes
+pair465,Does Left Tåledbesvär cause Left L5 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair466,Does DLS C4-C5 cause Right C5 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair466,Does Right C5 Radiculopathy cause DLS C4-C5? Please answer in a single word: Yes or No.,No
+pair467,Does Left T12 Radiculopathy cause Left Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair467,Does Left Lower abdominal pain cause Left T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair468,Does Left T12 Radiculopathy cause Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair468,Does Lower abdominal pain cause Left T12 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair469,Does Left T3 Radiculopathy cause chest pain? Please answer in a single word: Yes or No.,Yes
+pair469,Does chest pain cause Left T3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair470,Does DLS T10-T11 cause Right T11 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair470,Does Right T11 Radiculopathy cause DLS T10-T11? Please answer in a single word: Yes or No.,No
+pair471,Does Left L2 Radiculopathy cause lumbago? Please answer in a single word: Yes or No.,Yes
+pair471,Does lumbago cause Left L2 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair472,Does Right L3 Radiculopathy cause Right Leg pain? Please answer in a single word: Yes or No.,Yes
+pair472,Does Right Leg pain cause Right L3 Radiculopathy? Please answer in a single word: Yes or No.,No
+pair473,Does DLS L2-L3 cause Left L3 Radiculopathy? Please answer in a single word: Yes or No.,Yes
+pair473,Does Left L3 Radiculopathy cause DLS L2-L3? Please answer in a single word: Yes or No.,No
+pair474,Does Left T11 Radiculopathy cause Left Lower abdominal pain? Please answer in a single word: Yes or No.,Yes
+pair474,Does Left Lower abdominal pain cause Left T11 Radiculopathy? Please answer in a single word: Yes or No.,No
