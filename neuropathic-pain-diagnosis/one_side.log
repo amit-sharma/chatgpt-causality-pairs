@@ -26,3 +26,5 @@ gpt-3.5-turbo
 accuracy:  0.7105263157894737
 gpt-3.5-turbo
 accuracy:  0.7505263157894737
+text-ada-001
+accuracy:  0.5
