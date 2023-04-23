@@ -98,7 +98,7 @@ graph_h1k6=np.array([[0,0,0,0,0,0,0,0,0,0,0,0], # test 6: hidden_layer=1, kernel
                   	[0,0,0,0,0,0,0,0,0,0,0,0]])
 
 graph_chatgpt = np.zeros((12,12))
-model_name = "gpt-3.5-turbo"
+model_name = "gpt-4"
 gpt_result_file = "%s_system_results_singleprompt_1.jsonl" % model_name
 accuracyf = open(f"{gpt_result_file}.csv", "w")
 acc = 0
@@ -114,7 +114,7 @@ with open(gpt_result_file) as fin:
         pair_id = data["pair_id"]
         s = int(pair_id.split("_")[1])
         t = int(pair_id.split("_")[2])
-        if gpt_result_file.find("gpt-3.5-turbo") != -1:
+        if gpt_result_file.find("gpt-3.5-turbo") != -1 or gpt_result_file.find("gpt-4") != -1 or gpt_result_file.find("gpt-35-turbo") != -1:
             pred = data["result"]["choices"][0]["message"]["content"].strip().lower()
         else:
             pred = data["result"]["choices"][0]["text"].strip().lower()
@@ -161,6 +161,12 @@ print(true_st, true_ts)
 print(pred_st, pred_ts)
 print(prec_st, "Prec:", prec_st/pred_st, "Recall", recall_st/true_st)
 print(prec_ts, "Prec:", prec_ts/pred_ts, "Recall", recall_ts/true_ts)
+
+# Overall precision
+prec = (prec_st + prec_ts)/(pred_st+pred_ts)
+rec = (recall_st+recall_ts)/(true_st+true_ts)
+f1 = 2*(prec*rec)/(prec+rec)
+print("precision:", prec, "recall", rec, "f1", f1)
 nodes = []
 # load json data from a file
 with open('variables.txt', 'r') as f:
