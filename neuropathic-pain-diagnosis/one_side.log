@@ -1,0 +1,30 @@
+ada
+accuracy:  0.4010526315789474
+text-davinci-003
+accuracy:  0.5505263157894736
+text-davinci-002
+accuracy:  0.5178947368421053
+text-davinci-002
+accuracy:  0.5168421052631579
+text-davinci-001
+accuracy:  0.5
+davinci
+accuracy:  0.3831578947368421
+babbage
+accuracy:  0.5
+text-babbage-001
+accuracy:  0.5094736842105263
+text-curie-001
+accuracy:  0.5
+curie
+accuracy:  0.5
+curie
+accuracy:  0.5
+curie
+accuracy:  0.5
+gpt-3.5-turbo
+accuracy:  0.7105263157894737
+gpt-3.5-turbo
+accuracy:  0.7505263157894737
+text-ada-001
+accuracy:  0.5
