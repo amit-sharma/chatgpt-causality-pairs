@@ -28,7 +28,7 @@ def query_gpt(prompts, model_name, output_file, system=None):
     openai.api_key = os.getenv("OPENAI_API_KEY")
     with open(output_file, "w") as fout:
         for p in prompts:
-            if model_name == "gpt-3.5-turbo":
+            if model_name in ["gpt-3.5-turbo", "gpt-4"]:
                 messages = []
                 if system:
                     messages.append({"role": "system", "content": system})
@@ -47,7 +47,7 @@ def query_gpt(prompts, model_name, output_file, system=None):
             p["result"] = response
             fout.write(json.dumps(p) + "\n")
             fout.flush()
-            time.sleep(0.1)
+            time.sleep(1)
 
 
 def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
@@ -62,7 +62,7 @@ def generate_accuracy_results(groundtruth_file, gpt_result_file, result_file):
         cnt = 0
         for line in fin:
             data = json.loads(line)
-            if gpt_result_file.find("gpt-3.5-turbo") != -1:
+            if gpt_result_file.find("gpt-3.5-turbo") != -1 or gpt_result_file.find("gpt-4") != -1:
                 pred = data["result"]["choices"][0]["message"]["content"].strip().lower()
             else:
                 pred = data["result"]["choices"][0]["text"].strip().lower()
@@ -90,6 +90,7 @@ if __name__ == "__main__":
     # for model_name in ["text-davinci-003"]:
     # for model_name in ["ada"]:
     # ["text-davinci-002", "text-davinci-001", "davinci", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
+    """
     for model_name in ["text-ada-001"]:
         gpt_output_file = datadir + "%s_one_side_results.jsonl" % model_name
         query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
@@ -97,7 +98,6 @@ if __name__ == "__main__":
         gpt_result_file = datadir + "%s_one_side_results.csv" % model_name
         print(model_name)
         generate_accuracy_results(groundtruth_file, gpt_output_file, gpt_result_file)
-    """
     model_name = "gpt-3.5-turbo"
     gpt_output_file = datadir + "%s_one_side_results_system_none.jsonl" % model_name
     query_gpt(prompts, model_name, gpt_output_file, system=None)
@@ -114,3 +114,19 @@ if __name__ == "__main__":
     print(model_name)
     generate_accuracy_results(groundtruth_file, gpt_output_file, gpt_result_file)
     """
+    model_name = "gpt-4"
+    gpt_output_file = datadir + "%s_one_side_results_system_none.jsonl" % model_name
+    query_gpt(prompts, model_name, gpt_output_file, system=None)
+    groundtruth_file = datadir + "one_side_groundtruth.csv"
+    gpt_result_file = datadir + "%s_one_side_results_system_none.csv" % model_name
+    print(model_name)
+    generate_accuracy_results(groundtruth_file, gpt_output_file, gpt_result_file)
+    
+    model_name = "gpt-4"
+    gpt_output_file = datadir + "%s_one_side_results_system_expert.jsonl" % model_name
+    query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
+    groundtruth_file = datadir + "one_side_groundtruth.csv"
+    gpt_result_file = datadir + "%s_one_side_results_system_expert.csv" % model_name
+    print(model_name)
+    generate_accuracy_results(groundtruth_file, gpt_output_file, gpt_result_file)
+
