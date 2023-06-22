@@ -12,7 +12,6 @@ EXPLAIN_TEMPLATE = "{0} Explain what is {1} and {2}. Then reason whether {1} can
 STEP_TEMPLATE = "{0} Let's think step-by-step whether {1} can cause {2}. Then provide your final answer on whether {1} causes {2}, within the tags <Answer>Can cause/Cannot cause</Answer>."
 SINGLE_TEMPLATE = """{0} Which cause-and-effect relationship is more likely?\tA. {1} causes {2}.\tB. {2} causes {1}.\t\tLet's work this out in a step by step way to be sure that we have the right answer. Then provide your final answer within the tags <Answer>A/B</Answer>."""
 
-
 def expand_node_text(s):
     if re.match("[LR] [A-Z][0-9]+", s):
         s = s + " Radiculopathy"

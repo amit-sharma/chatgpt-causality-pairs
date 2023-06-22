@@ -98,8 +98,8 @@ graph_h1k6=np.array([[0,0,0,0,0,0,0,0,0,0,0,0], # test 6: hidden_layer=1, kernel
                   	[0,0,0,0,0,0,0,0,0,0,0,0]])
 
 graph_chatgpt = np.zeros((12,12))
-model_name = "gpt-4"
-gpt_result_file = "%s_system_results_singleprompt_1.jsonl" % model_name
+model_name = "text-davinci-003"
+gpt_result_file = "%s_system_results_singleprompt.jsonl" % model_name
 accuracyf = open(f"{gpt_result_file}.csv", "w")
 acc = 0
 pred_st = 0

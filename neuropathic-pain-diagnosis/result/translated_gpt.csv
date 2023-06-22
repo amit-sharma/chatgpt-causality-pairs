@@ -1,0 +1,85 @@
+1, Bröstryggsbesvär, Thoracic Spine Pain
+2, Bukbesvär, Abdominal Pain
+3, Centrala Ljumskbesvär, Central Groin Pain
+4, Coccydyni, Coccydynia
+5, Huvudvärk, Headache
+6, Hälbesvär, Heel Pain, *
+7, IBS, IBS
+8, L Achillesbesvär, L Achilles Pain
+9, L Achillestendalgi, L Achilles Tendonitis
+10, L Achillodyni, L Achillodynia
+11, L Adduktortendalgi, L Adductor Tendonitis
+12, L Armbågsbesvär, L Elbow Pain
+13, L Axel impingement, L Shoulder Impingement
+14, L Axelbesvär, L Shoulder Pain
+15, L Bakhuvudvärk, L Occipital Headache, *
+16, L Benbesvär, L Leg Pain
+17, L Bröstbesvär, L Chest Pain
+18, L Central bröstsmärta, L Central Chest Pain
+19, L Fingerbesvär, L Finger Pain
+20, L Fotbesvär, L Foot Pain
+21, L Fotvalvsbesvär, L Arch Pain
+22, L Främre knäbesvär, L Anterior Knee Pain
+23, L Främre lårbesvär, L Anterior Thigh Pain
+24, L Handledsbesvär, L Wrist Pain
+25, L Hälbesvär, L Heel Pain
+26, L Höftbesvär, L Hip pain
+27, L Interskapulära besvär, L Interscapular pain
+28, L Ischias, L Sciatica
+29, L Käkbesvär, L Jaw pain
+30, L Laterala armbågsbesvär, L Lateral elbow pain
+31, L Laterala armsbesvär, L Lateral arm pain
+32, L Laterala ljumskbesvär, L Lateral groin pain
+33, L Laterala vadbesvär, L Lateral calf pain
+34, L Lilltåbesvär, L Little toe pain
+35, L Ljumskbesvär, L Groin pain
+36, L Lumbago, L Lumbago
+37, L Lårbesvär, L Thigh pain
+38, L Mediala ljumskbesvär, L Medial groin pain
+39, L Nackbesvär, L Neck pain
+40, L Nedre bukbesvär, L Lower abdominal pain
+41, L Nyckelbensbesvär, L Clavicle pain, *
+42, L Pannhuvudvärk, L Forehead headache
+43, L Stortårbesvär, L Big toe pain
+44, L Vadbesvär, L Calf pain
+45, L Ögonbesvär, L Eye pain
+46, L Öronbesvär, L Ear pain
+47, L Övre armsbesvär, L Upper arm pain
+48, Lumbago, Lumbago
+49, Nackbesvär, Neck pain
+50, Nedre bukbesvär, Lower abdominal pain
+51, R Achillestendalgi, R Achilles Tendonitis
+52, R Achillodyni, R Achillodynia
+53, R Adduktortendalgi, R Adductor Tendonitis
+54, R Armbågsbesvär, R Elbow Discomfort
+55, R Axel impingement, R Shoulder Impingement
+56, R Axelbesvär, R Shoulder Discomfort
+57, R Benbesvär, R Leg Discomfort
+58, R Bröstbesvär, R Chest Discomfort
+59, R Fotvalvsbesvär, R Foot Arch Discomfort
+60, R Främre Axelbesvär, R Anterior Shoulder Discomfort
+61, R Främre knäbesvär, R Anterior Knee Discomfort
+62, R Främre lårbesvär, R Anterior Thigh Discomfort
+63, R Handbesvär, R Hand Discomfort
+64, R Handledsbesvär, R Wrist Discomfort
+65, R Höftbesvär, R Hip Discomfort
+66, R Höftkamsbesvär, R Iliac Crest Discomfort, *
+67, R Interskapulära besvär, R Interscapular Discomfort
+68, R Ischias, R Sciatica
+69, R Käkbesvär, R Jaw Discomfort
+70, R Laterala armbågsbesvär, R Lateral Elbow Discomfort
+71, R Laterala knäbesvär, R Lateral Knee Discomfort
+72, R Ljumskbesvär, R Groin Discomfort
+73, R Lumbago, R Lumbago
+74, R Lårbesvär, R Thigh Discomfort
+75, R Mediala armbågsbesvär, R Medial Elbow Discomfort
+76, R Mediala knäledsbesvär, R Medial Knee Joint Pain
+77, R Mediala vadbesvär, R Medial Calf Pain
+78, R PFS, R Patellofemoral Pain Syndrome, *
+79, R Skulderbesvär, R Shoulder Pain
+80, R Tibiaperialgi, R Tibial Periostitis, *
+81, R Tinnitus, R Tinnitus
+82, R Tumbesvär, R Thumb Pain
+83, R Tåledbesvär, R Toe Joint Pain
+84, R Under armsbesvär, R Underarm Pain
+85, Svalgbesvär, Throat Discomfort

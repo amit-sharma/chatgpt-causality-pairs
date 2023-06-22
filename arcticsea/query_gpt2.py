@@ -12,7 +12,7 @@ NUM_EVALS = None#None # 50
 NUM_TRIES = 1
 SKIP_PROMPTS = 0
 CHATMODELS = ["gpt-35-turbo",'gpt-4', 'gpt-3.5-turbo']
-AZURE = True
+AZURE = False
 DELAY = 1
 PROMPTS = "prompts"
 prompt_suffix = "_" + PROMPTS.split("_")[1] if "_" in PROMPTS else ""
@@ -57,9 +57,9 @@ def query_gpt(prompts, model_name, output_file, system=None):
                 else:
                     response = openai.Completion.create(
                             model=model_name,
-                            prompt=prompts[i]["prompt"],
-                            temperature=1e-3,
-                            max_tokens=512)
+                            prompt=system + "\n\n" + prompts[i]["prompt"],
+                            temperature=0.7,
+                            max_tokens=1024)
                             #top_p=1,
                             #frequency_penalty=0,
                             #presence_penalty=0,
@@ -120,9 +120,9 @@ if __name__ == "__main__":
     prompts = read_prompts("prompts.csv")
     # model_name = "text-davinci-003"
     # for model_name in ["text-davinci-002", "text-davinci-001", "davinci", "ada", "babbage", "text-babbage-001", "text-curie-001", "curie"]:
-    for model_name in ["gpt-4"]: #["text-davinci-003"]: #["gpt-3.5-turbo"]:
-        gpt_output_file = "%s_system_results_singleprompt_1.jsonl" % model_name
+    for model_name in ["text-davinci-003"]: #["text-davinci-003"]: #["gpt-3.5-turbo"]:
+        gpt_output_file = "%s_system_results_singleprompt.jsonl" % model_name
         query_gpt(prompts, model_name, gpt_output_file, system=SYSTEM)
-        gpt_result_file = "%s_system_results_singleprompt_1.csv" % model_name
+        gpt_result_file = "%s_system_results_singleprompt.csv" % model_name
         print(model_name)
 
